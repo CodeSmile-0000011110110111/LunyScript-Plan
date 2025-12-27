@@ -36,6 +36,3 @@
     ]
   }
   #+END_QUERY
-- new item
-- test
--
