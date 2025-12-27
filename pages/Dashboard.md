@@ -10,7 +10,7 @@
     ]
   }
   #+END_QUERY
-- [[BACKLOG]]
+- ## [[BACKLOG]]
 	- #+BEGIN_QUERY
 	  { :title [:h3 "Backlog (Not Yet Assigned to a Sprint)"]
 	    :query [:find (pull ?b [*])
