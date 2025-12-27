@@ -13,29 +13,41 @@
 - ---
 - ## [[BACKLOG]]
 	- #+BEGIN_QUERY
-	  { :title [:h3 "Backlog (Not Yet Assigned to a Sprint)"]
+	  { :title [:h2 "Backlog (Unassigned)"]
 	    :query [:find (pull ?b [*])
 	            :where
-	            ;; 1. Find the Backlog page
 	            [?p :block/name "backlog"]
-	            ;; 2. Find blocks that reference that page
-	            [?b :block/refs ?p]
-	            ;; 3. Only look for tasks marked LATER
+	            [?b :block/page ?p]
 	            [?b :block/marker "LATER"]
-	            ;; 4. EXCLUDE if the block has a 'sprint' property
-	            (not [?b :block/properties ?props]
-	                 [(get ?props :sprint)])
+	            ;; Filter: Exclude if 'sprint' exists in properties
+	            (not-join [?b]
+	              [?b :block/properties ?props]
+	              [(get ?props :sprint)])
+	            ;; Filter: Exclude if a child bullet has 'sprint'
+	            (not-join [?b]
+	              [?child :block/parent ?b]
+	              [?child :block/properties ?cprops]
+	              [(get ?cprops :sprint)])
 	    ]
 	  }
 	  #+END_QUERY
 -
 - #+BEGIN_QUERY
-  { :title [:h3 "Debugging: Blocks physically on 'Backlog' page"]
+  { :title [:h2 "Backlog (Unassigned)"]
     :query [:find (pull ?b [*])
             :where
             [?p :block/name "backlog"]
-            [?b :block/page ?p]       ;; This looks for blocks ON the page
+            [?b :block/page ?p]
             [?b :block/marker "LATER"]
+            ;; Filter: Exclude if 'sprint' exists in properties
+            (not-join [?b]
+              [?b :block/properties ?props]
+              [(get ?props :sprint)])
+            ;; Filter: Exclude if a child bullet has 'sprint'
+            (not-join [?b]
+              [?child :block/parent ?b]
+              [?child :block/properties ?cprops]
+              [(get ?cprops :sprint)])
     ]
   }
   #+END_QUERY
