@@ -1,4 +1,4 @@
-- LATER [[Debug Hooks]] with execution tracing
+- DONE [[Debug Hooks]] with execution tracing
 - LATER [[Luny Profiling Hooks]] with ingame overlay
 - LATER [[LunyScript Profiling Hooks]] for profiling individual scripts and runnables
 - LATER [[Hot Reload]] with manual triggers
