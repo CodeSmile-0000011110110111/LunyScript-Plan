@@ -2,7 +2,8 @@
 - LATER [[Luny Profiling Hooks]] with ingame overlay
 - LATER [[LunyScript Profiling Hooks]] for profiling individual scripts and runnables
 - LATER [[Hot Reload]] with manual triggers
-- LATER [[Conditional Blocks]]
+- LATER [[Conditional Blocks]] (if/else)
+- LATER [[Composite Blocks]] (loops, timers)
 - LATER [[Variable Blocks]]
 - LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable)
 - LATER [[Lifecycle Blocks]] engine API for regular code
