@@ -1,5 +1,6 @@
-- LATER
-- LATER [[Hot Reload]]
+- LATER [[Debug Hooks]] with execution tracing
+-
+- LATER [[Hot Reload]] with manual triggers
 - LATER [[Conditional Blocks]]
 - LATER [[Variable Blocks]]
 - LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable)
