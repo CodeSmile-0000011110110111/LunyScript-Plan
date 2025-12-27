@@ -1,3 +1,4 @@
 - LATER LunyUrl class
 	- => a string wrapper representing a path in game engines
-	- converts from/to engine-native paths ie prefixes like "res://" in Godot, normalizing path separators, providing "relative path" accessor (refactor CodeSmile AssetDatabase Path class)
+	- converts from/to engine-native paths ie prefixes like "res://" in Godot, normalizing path separators, providing relative/absolut path accessors
+	- Note: CodeSmile AssetDatabase has such a Path class
