@@ -1,2 +1,2 @@
 - Sprint1: {{query (and (todo now) [[sprint1]])}}
-- BACKLOG:
+- BACKLOG: {{query (and [[Project Backlog]] (todo later) (not [[sprint1]]))}}
