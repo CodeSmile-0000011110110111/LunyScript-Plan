@@ -1,7 +1,8 @@
 - The following Blocks raise internal events and should also be available to outside code interfacing with LunyScript:
 	- Enabled state (Unity: SetActive, Godot: paused) => OnEnable/OnDisable
+		-
 	- Instantiate/Destroy => OnCreate/OnDestroy
 		- prefabs (user provides resource path or reference)
 		- primitives (user provides primitive type via enum)
-		- "blank" or built-in template objects (Unity: new GameObject, Godot: new Node)
+		- "empty" or built-in template objects (Unity: new GameObject, Godot: new Node)
 	- Spawn/Despawn => OnSpawn/OnDespawn (get from and return to pool)
