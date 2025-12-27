@@ -3,5 +3,5 @@
 	- Instantiate/Destroy => OnCreate/OnDestroy
 		- prefabs (user provides resource path or reference)
 		- primitives (user provides primitive type via enum)
-		- "blank" or built-in objects (Unity: new GameObject, Godot: new Node)
+		- "blank" or built-in template objects (Unity: new GameObject, Godot: new Node)
 	- Spawn/Despawn => OnSpawn/OnDespawn (get from and return to pool)
