@@ -40,4 +40,18 @@
   }
   #+END_QUERY
 -
--
+- #+BEGIN_QUERY
+  { :title "Diagnostic Table"
+    :query [:find (pull ?b [*])
+            :where
+            [?b :block/marker "LATER"]
+    ]
+    :view (fn [rows]
+      [:table
+       [:thead [:tr [:th "Task"] [:th "Sprint Value"]]]
+       [:tbody (for [r rows]
+                 [:tr
+                  [:td (get-in r [:block/content])]
+                  [:td (str (get-in r [:block/properties :sprint]))]])]])
+  }
+  #+END_QUERY
