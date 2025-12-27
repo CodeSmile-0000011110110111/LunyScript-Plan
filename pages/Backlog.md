@@ -1,6 +1,6 @@
 - DONE [[LunyScript Debug Hooks]] with ingame overlay (Unity)
-- DONE [[Luny Profiling Hooks]] with ingame overlay (Unity)
 - LATER [[LunyScript Profiling Hooks]] for profiling individual scripts and runnables
+- DONE [[Luny Profiling Hooks]] with ingame overlay (Unity)
 - LATER [[Hot Reload]] with manual triggers
 - LATER [[Conditional Blocks]] (if/else)
 - LATER [[Composite Blocks]] (loops, timers, coroutines)
