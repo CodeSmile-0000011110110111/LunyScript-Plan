@@ -9,4 +9,4 @@
 	- Spawn/Despawn => OnSpawn/OnDespawn (get from and return to pool)
 - Object Lifecycle Tracking
 	- Godot: use global callbacks
-	- Unity: rely on using internal blocks (raise relevant events), ie without
+	- Unity: rely on using internal blocks (raise relevant events), may add state-tracking later
