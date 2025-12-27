@@ -32,14 +32,16 @@
   #+END_QUERY
 -
 - #+BEGIN_QUERY
-  { :title [:h2 "Sprint 1 Work"]
+  { :title [:h2 "Current Sprint Items"]
     :query [:find (pull ?b [*])
             :where
             [?b :block/marker "LATER"]
             [?b :block/properties ?props]
             [(get ?props :sprint) ?v]
-            ;; This checks if the value is either the number 1 or the string "1"
-            (or [(= ?v 1)] [(= ?v "1")])
+            ;; Convert the value to a string to be safe
+            [(str ?v) ?str-v]
+            ;; Use a string match for "1"
+            [(= ?str-v "1")]
     ]
   }
   #+END_QUERY
