@@ -3,5 +3,5 @@
 	- Instantiate/Destroy => OnCreate/OnDestroy
 		- prefabs
 		- primitives
-		- "blank" objects
+		- "blank" or built-in objects (Unity: new GameObject, Godot: new Node)
 	- Spawn/Despawn => OnSpawn/OnDespawn (get from and return to pool)
