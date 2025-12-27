@@ -1,0 +1,15 @@
+# Logseq internal folders
+.logseq/
+.lsp/
+
+# Metadata and cache (Crucial to ignore to avoid sync conflicts)
+logseq/bak/
+logseq/.recycle/
+logseq/.tdb/
+
+# Desktop specific settings (like window size/position)
+logseq/settings.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
