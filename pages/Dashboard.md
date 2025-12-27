@@ -47,7 +47,8 @@
             [?b :block/marker "LATER"]
             [?b :block/properties ?props]
             [(get ?props :sprint) ?v]
-            [(= ?v 1)]
+            ;; This checks if the value is either the number 1 or the string "1"
+            (or [(= ?v 1)] [(= ?v "1")])
     ]
   }
   #+END_QUERY
