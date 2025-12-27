@@ -1,4 +1,5 @@
 - LATER [[Hot Reload]]
 - LATER [[Conditional Blocks]]
 - LATER [[Variable Blocks]]
-- LATER LunyScript lifecycle methods (create/destroy, enable/disable => for regular code)
+- LATER LunyScriptEngine lifecycle API for regular code (create/destroy, enable/disable)
+-
