@@ -1,5 +1,5 @@
-- DONE [[Diagnostics]] [[Luny Profiling Hooks]] with ingame overlay (Unity) #luny
-- DONE [[Diagnostics]] [[LunyScript Debug Hooks]] with ingame overlay (Unity) #lunyscript
+- DONE [[Diagnostics]] [[Profiling]] with ingame overlay (Unity) #luny
+- DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
 - LATER [[Diagnostics]] [[LunyScript Profiling Hooks]] for profiling individual scripts and runnables #lunyscript
 - LATER [[LunyScript Hot Reload]] with manual triggers #lunyscript
 - LATER [[Conditional Blocks]] (if/else) #lunyscript
