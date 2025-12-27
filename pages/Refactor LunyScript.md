@@ -1,2 +1,3 @@
 - move API calls to static classes: DebugBreak() => Debug.Break()
-- variable names
+- Variables:
+	- GlobalVariables etc is a bit long consider GlobalVars or GVars (perhaps alias?)
