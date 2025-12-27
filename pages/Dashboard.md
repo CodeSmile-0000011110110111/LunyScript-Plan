@@ -11,26 +11,25 @@
   }
   #+END_QUERY
 - ---
-- ## [[BACKLOG]]
-	- #+BEGIN_QUERY
-	  { :title [:h2 "Backlog (Unassigned)"]
-	    :query [:find (pull ?b [*])
-	            :where
-	            [?p :block/name "backlog"]
-	            [?b :block/page ?p]
-	            [?b :block/marker "LATER"]
-	            ;; Filter: Exclude if 'sprint' exists in properties
-	            (not-join [?b]
-	              [?b :block/properties ?props]
-	              [(get ?props :sprint)])
-	            ;; Filter: Exclude if a child bullet has 'sprint'
-	            (not-join [?b]
-	              [?child :block/parent ?b]
-	              [?child :block/properties ?cprops]
-	              [(get ?cprops :sprint)])
-	    ]
-	  }
-	  #+END_QUERY
+- #+BEGIN_QUERY
+  { :title [:h2 "Backlog (Unassigned)"]
+    :query [:find (pull ?b [*])
+            :where
+            [?p :block/name "backlog"]
+            [?b :block/page ?p]
+            [?b :block/marker "LATER"]
+            ;; Filter: Exclude if 'sprint' exists in properties
+            (not-join [?b]
+              [?b :block/properties ?props]
+              [(get ?props :sprint)])
+            ;; Filter: Exclude if a child bullet has 'sprint'
+            (not-join [?b]
+              [?child :block/parent ?b]
+              [?child :block/properties ?cprops]
+              [(get ?cprops :sprint)])
+    ]
+  }
+  #+END_QUERY
 -
 - #+BEGIN_QUERY
   { :title [:h2 "Backlog (Unassigned)"]
