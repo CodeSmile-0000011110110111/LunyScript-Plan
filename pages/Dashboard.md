@@ -41,18 +41,13 @@
   #+END_QUERY
 -
 - #+BEGIN_QUERY
-  { :title [:h2 "Backlog (Not Yet Assigned)"]
+  { :title [:h2 "Sprint 1 Work"]
     :query [:find (pull ?b [*])
             :where
-            ;; 1. Identify the 'backlog' page (names are always lowercase in DB)
-            [?p :block/name "backlog"]
-            ;; 2. Find blocks physically located ON that page
-            [?b :block/page ?p]
-            ;; 3. Filter for tasks marked LATER
             [?b :block/marker "LATER"]
-            ;; 4. EXCLUDE if the block has a 'sprint' property
-            (not [?b :block/properties ?props]
-                 [(get ?props :sprint)])
+            [?b :block/properties ?props]
+            [(get ?props :sprint) ?v]
+            [(= ?v 1)]
     ]
   }
   #+END_QUERY
