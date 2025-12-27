@@ -1,5 +1,15 @@
-- Sprint1:
--
+## Current Sprint
+- #+BEGIN_QUERY
+  { :title [:h3 "Active Items: Sprint 1"]
+    :query [:find (pull ?b [*])
+            :where
+            [?b :block/marker "LATER"]
+            [?b :block/properties ?props]
+            [(get ?props :sprint) ?s]
+            [(= ?s 1)]
+    ]
+  }
+  #+END_QUERY
 - [[BACKLOG]]
 	- #+BEGIN_QUERY
 	  { :title [:h3 "Backlog (Not Yet Assigned to a Sprint)"]
