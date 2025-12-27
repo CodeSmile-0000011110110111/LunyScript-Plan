@@ -1,3 +1,5 @@
+- REFACTOR ScenePreprocessor currently loads scripts for existing objects. We should re-design this to always instantiate scripts even without context. For one, they might "instantiate themselves" via OnStartup event blocks ie OnStartup(Prefab.Spawn(nameof(TheScript))) If not that, then something else might spawn the corresponding object.
+-
 - **Hot reload is per-ScriptType:**
   1. Detect script type changed (manual API trigger for now, file watcher later)
   2. Find all RunContexts with matching ScriptType
