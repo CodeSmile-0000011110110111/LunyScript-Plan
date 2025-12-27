@@ -1,4 +1,7 @@
 - The following Blocks raise internal events and should also be available to outside code interfacing with LunyScript:
 	- Enabled state (Unity: SetActive, Godot: paused) => OnEnable/OnDisable
 	- Instantiate/Destroy => OnCreate/OnDestroy
+		- prefabs
+		- primitives
+		- "blank" objects
 	- Spawn/Despawn => OnSpawn/OnDespawn (get from and return to pool)
