@@ -10,6 +10,7 @@
     ]
   }
   #+END_QUERY
+- ---
 - ## [[BACKLOG]]
 	- #+BEGIN_QUERY
 	  { :title [:h3 "Backlog (Not Yet Assigned to a Sprint)"]
