@@ -1,6 +1,5 @@
-- move API calls to static classes: DebugBreak() => Debug.Break()
+- LATER move API calls to static classes: DebugBreak() => Debug.Break()
 - Variables:
-	- LATER GlobalVariables etc is a bit long
-	- LATER refactor to Vars.Global[] or Vars.G[] as alias
+	- LATER refactor to Vars.Global[] and maybe Vars.G[] as alias
 	- LATER remove InspectorVariables (get merged into LocalVariables)
 	-
