@@ -1,6 +1,7 @@
 - LATER this is a first backlog item
 - LATER this is an item assigned to sprint 1
 	- sprint:: 1
-- LATER epic:: [[Hot Reload]]
+- LATER [[Hot Reload]]
+	- epic::
 - LATER epic:: [[Conditional Blocks]]
 -
