@@ -2,6 +2,7 @@
 - LATER this is an item assigned to sprint 1
 	- sprint:: 1
 - LATER [[Hot Reload]]
-	- epic::
-- LATER epic:: [[Conditional Blocks]]
+	- epic:: feature
+- LATER [[Conditional Blocks]]
+	- epic:: feature
 -
