@@ -7,3 +7,6 @@
 		- primitives (user provides primitive type via enum)
 		- "empty" or built-in template objects (Unity: new GameObject, Godot: new Node)
 	- Spawn/Despawn => OnSpawn/OnDespawn (get from and return to pool)
+- Object Lifecycle Tracking
+	- Godot: use global callbacks
+	- Unity: rely on firing
