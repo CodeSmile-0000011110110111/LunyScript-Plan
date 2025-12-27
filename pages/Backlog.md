@@ -2,5 +2,6 @@
 - LATER [[Conditional Blocks]]
 - LATER [[Variable Blocks]]
 - LATER Lifecycle Blocks with events (create/destroy, enable/disable)
-- LATER Lifecycle Block engine API for regular code (fires internal events: Object.Destroy(x) => LunyObject.Destroy(x))
+- LATER Lifecycle Block engine API for regular code
+	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 -
