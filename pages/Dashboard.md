@@ -1,11 +1,12 @@
-- Sprint1: {{query (and (todo now) [[sprint1]])}}
+- Sprint1:
+-
 - [[BACKLOG]]
 	- #+BEGIN_QUERY
 	  { :title [:h3 "Backlog (Not Yet Assigned to a Sprint)"]
 	    :query [:find (pull ?b [*])
 	            :where
 	            ;; 1. Find the Backlog page
-	            [?p :block/name "backlog"]
+	            [?p :block/name "Backlog"]
 	            ;; 2. Find blocks that reference that page
 	            [?b :block/refs ?p]
 	            ;; 3. Only look for tasks marked LATER
