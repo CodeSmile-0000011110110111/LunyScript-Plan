@@ -41,17 +41,18 @@
   #+END_QUERY
 -
 - #+BEGIN_QUERY
-  { :title "Diagnostic Table"
+  { :title [:h2 "Backlog (Not Yet Assigned)"]
     :query [:find (pull ?b [*])
             :where
+            ;; 1. Identify the 'backlog' page (names are always lowercase in DB)
+            [?p :block/name "backlog"]
+            ;; 2. Find blocks physically located ON that page
+            [?b :block/page ?p]
+            ;; 3. Filter for tasks marked LATER
             [?b :block/marker "LATER"]
+            ;; 4. EXCLUDE if the block has a 'sprint' property
+            (not [?b :block/properties ?props]
+                 [(get ?props :sprint)])
     ]
-    :view (fn [rows]
-      [:table
-       [:thead [:tr [:th "Task"] [:th "Sprint Value"]]]
-       [:tbody (for [r rows]
-                 [:tr
-                  [:td (get-in r [:block/content])]
-                  [:td (str (get-in r [:block/properties :sprint]))]])]])
   }
   #+END_QUERY
