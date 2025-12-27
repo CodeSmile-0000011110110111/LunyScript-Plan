@@ -29,6 +29,15 @@
 	  }
 	  #+END_QUERY
 -
-- {{query [:find (pull ?b [*])}}
+- #+BEGIN_QUERY
+  { :title [:h3 "Debugging: Blocks physically on 'Backlog' page"]
+    :query [:find (pull ?b [*])
+            :where
+            [?p :block/name "backlog"]
+            [?b :block/page ?p]       ;; This looks for blocks ON the page
+            [?b :block/marker "LATER"]
+    ]
+  }
+  #+END_QUERY
 -
 -
