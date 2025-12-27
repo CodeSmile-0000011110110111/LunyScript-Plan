@@ -1,0 +1,2 @@
+- Telemetry
+	- Can we use GoatCounter to submit (runtime) telemetry of Luny usage?
