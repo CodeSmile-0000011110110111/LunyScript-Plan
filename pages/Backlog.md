@@ -1,7 +1,8 @@
 - LATER [[Hot Reload]]
 - LATER [[Conditional Blocks]]
 - LATER [[Variable Blocks]]
-- LATER Lifecycle Blocks with events (create/destroy, enable/disable)
-- LATER Lifecycle Block engine API for regular code
+- LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable)
+- LATER [[Lifecycle Blocks]] engine API for regular code
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
-- LATER [[Event Handling Blocks]] foundation )
+- LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc)
+-
