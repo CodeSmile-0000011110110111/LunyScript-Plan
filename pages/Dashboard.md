@@ -1,10 +1,10 @@
 - Sprint1: {{query (and (todo now) [[sprint1]])}}
 - [[BACKLOG]]
 	- #+BEGIN_QUERY
-	  { :title [:h3 "Filtered Backlog (No Sprints)"]
+	  { :title [:h2 "Backlog (No Sprints)"]
 	    :query [:find (pull ?b [*])
 	            :where
-	            [?p :block/name "project backlog"]
+	            [?p :block/name "Backlog"]
 	            [?b :block/refs ?p]
 	            [?b :block/marker "LATER"]
 	            (not 
