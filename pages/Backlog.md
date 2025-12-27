@@ -1,5 +1,6 @@
 - LATER [[Debug Hooks]] with execution tracing
--
+- LATER [[Luny Profiling Hooks]] with ingame overlay
+- LATER
 - LATER [[Hot Reload]] with manual triggers
 - LATER [[Conditional Blocks]]
 - LATER [[Variable Blocks]]
