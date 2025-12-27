@@ -1,4 +1,4 @@
-- DONE [[Debug Hooks]] with ingame overlay (Unity)
+- DONE [[LunyScript Debug Hooks]] with ingame overlay (Unity)
 - DONE [[Luny Profiling Hooks]] with ingame overlay (Unity)
 - LATER [[LunyScript Profiling Hooks]] for profiling individual scripts and runnables
 - LATER [[Hot Reload]] with manual triggers
