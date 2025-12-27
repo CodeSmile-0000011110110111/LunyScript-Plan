@@ -29,3 +29,6 @@
 	  }
 	  #+END_QUERY
 -
+- {{query (property sprint)}}
+-
+-
