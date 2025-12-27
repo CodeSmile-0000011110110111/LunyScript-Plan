@@ -1,12 +1,18 @@
-## Current Sprint
 - #+BEGIN_QUERY
-  { :title [:h3 "Active Items: Sprint 1"]
-    :query [:find (pull ?b [*])
+  { :title [:h2 "Sprint 1 (Child Property Version)"]
+    :query [:find (pull ?parent [*])
             :where
-            [?b :block/marker "LATER"]
-            [?b :block/properties ?props]
-            [(get ?props :sprint) ?s]
-            [(= ?s 1)]
+            ;; 1. Find the child block that has the property
+            [?child :block/properties ?props]
+            [(get ?props :sprint) ?v]
+            [(str ?v) ?str-v]
+            [(= ?str-v "1")]
+            
+            ;; 2. Find the parent of that child
+            [?child :block/parent ?parent]
+            
+            ;; 3. Ensure the parent is a task marked LATER
+            [?parent :block/marker "LATER"]
     ]
   }
   #+END_QUERY
@@ -32,16 +38,21 @@
   #+END_QUERY
 -
 - #+BEGIN_QUERY
-  { :title [:h2 "Current Sprint Items"]
-    :query [:find (pull ?b [*])
+  { :title [:h2 "Sprint 1 (Child Property Version)"]
+    :query [:find (pull ?parent [*])
             :where
-            [?b :block/marker "LATER"]
-            [?b :block/properties ?props]
+            ;; 1. Find the child block that has the property
+            [?child :block/properties ?props]
             [(get ?props :sprint) ?v]
-            ;; Convert the value to a string to be safe
             [(str ?v) ?str-v]
-            ;; Use a string match for "1"
             [(= ?str-v "1")]
+            
+            ;; 2. Find the parent of that child
+            [?child :block/parent ?parent]
+            
+            ;; 3. Ensure the parent is a task marked LATER
+            [?parent :block/marker "LATER"]
     ]
   }
   #+END_QUERY
+-
