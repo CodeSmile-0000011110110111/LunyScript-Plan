@@ -1,1 +1,2 @@
-- move API calls to static classes: DebugBreak =>
+- move API calls to static classes: DebugBreak() => Debug.Break()
+- variable names
