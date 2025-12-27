@@ -29,6 +29,6 @@
 	  }
 	  #+END_QUERY
 -
-- {{query [:find (pull ?b [*])(property sprint)}}
+- {{query [:find (pull ?b [*])}}
 -
 -
