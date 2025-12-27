@@ -1,4 +1,6 @@
 - Unity-specific
 	- restore the auto-selection of debug vs release DLLs
 - Godot-specific
+	- evaluate whether including Lua-CSharp source makes sense
+	- evalut
 	-
