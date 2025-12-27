@@ -12,3 +12,4 @@
 - LATER [[Testing Infrastructure]] #luny #lunyscript
 - LATER [[Resource Addressing]] (eg LunyUrl) #luny
 - LATER [[Lua Integration]] #luny
+- LATER Refactor LunyScript API
