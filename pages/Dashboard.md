@@ -1,7 +1,7 @@
 - Sprint1: {{query (and (todo now) [[sprint1]])}}
 - [[BACKLOG]]
 	- #+BEGIN_QUERY
-	  { :title [:h2 "Backlog (No Sprints)"]
+	  { :title [:h2 "Backlog (w/o Sprint tasks)"]
 	    :query [:find (pull ?b [*])
 	            :where
 	            [?p :block/name "Backlog"]
