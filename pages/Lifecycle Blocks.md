@@ -1,6 +1,6 @@
 - The following Blocks raise internal events and should also be available to outside code interfacing with LunyScript:
 	- Object enabled state (Unity: SetActive, Godot: paused) => OnEnable/OnDisable
-	- Component enabled state => OnComponentEnable/OnDisable too?
+	- Component enabled state => OnComponentEnable/OnComponentDisable
 		- Note: needs design (ignore for now)
 	- Instantiate/Destroy => OnCreate/OnDestroy
 		- prefabs (user provides resource path or reference)
