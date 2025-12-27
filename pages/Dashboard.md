@@ -17,7 +17,7 @@
 	    :query [:find (pull ?b [*])
 	            :where
 	            ;; 1. Find the Backlog page
-	            [?p :block/name "Backlog"]
+	            [?p :block/name "backlog"]
 	            ;; 2. Find blocks that reference that page
 	            [?b :block/refs ?p]
 	            ;; 3. Only look for tasks marked LATER
