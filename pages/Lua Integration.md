@@ -1,0 +1,4 @@
+- Unity-specific
+	- restore the auto-selection of debug vs release DLLs
+- Godot-specific
+	-
