@@ -9,6 +9,6 @@ DONE [[Luny Profiling Hooks]] with ingame overlay (Unity) project:: luny
 - LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable) project:: lunyscript
 - LATER [[Lifecycle Blocks]] engine API for regular code project:: lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
-- LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc)
-- LATER [[Testing Infrastructure]]
+- LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) project:: lunyscript
+- LATER [[Testing Infrastructure]] project:: luny
 -
