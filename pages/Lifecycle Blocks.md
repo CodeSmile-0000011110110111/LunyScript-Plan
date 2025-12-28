@@ -27,7 +27,7 @@
 			- created in OnLateUpdate => next frame, same as above
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- all events => won't run (unless already ran)
+		- all events => won't run (some may have already ran in the current frame)
 		- OnUpdate => won't run (unless already ran)
 		- OnLateUpdate => won't run (unless already ran)
 		- other events (eg collision, input) => won't run (unless already ran)
