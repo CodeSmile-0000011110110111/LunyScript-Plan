@@ -12,3 +12,7 @@
 	- Unity: rely on using internal blocks (raise relevant events), may add state-tracking later
 - ContextRegistry
 	- must provide fast access to script by engine-native object
+-
+- Lifecycle Event Handling
+	- OnEnable/OnDisable => run immediately
+	-
