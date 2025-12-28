@@ -24,7 +24,7 @@
 				- created in OnLateUpdate => no updates until next frame
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- OnUpdate, OnLateUpdate => not receiving the "next" update (current may )
+		- OnUpdate, OnLateUpdate => not receiving the "next" update (current may or may not run, depending on order of execution ie if A destroys B in A's OnUpdate then B will run On)
 		- OnDestroy => deferred, runs at end of frame;
 	- OnEnable/OnDisable => run immediately
 	-
