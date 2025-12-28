@@ -31,10 +31,10 @@
 		- OnDestroy => deferred to end of frame (after "last" event, currently: OnLateUpdate)
 	- Objects enabled (if disabled) during a frame:
 		- OnEnable => runs immediately
-		- OnFixedStep => won't run (this frame)
-		- OnUpdate =>
-		- OnLateUpdate =>
+		- OnFixedStep => next frame
+		- OnUpdate => next frame
+		- OnLateUpdate => next frame
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
-		- subsequent events => won't run (same as )
+		- subsequent events => won't run (same as for "destroy")
 	-
