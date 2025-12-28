@@ -53,7 +53,7 @@
 	- Object destroyed while disabled:
 		- OnDisable => does not run again!
 		- OnDestroy => deferred to end of frame
-	- Scene unload (for all affected objects - ie if unloading only a )
+	- Scene unload (additive unload: for all affected objects; otherwise all objects affected)
 		- cancel all pending creation queues
 		- OnDisable => runs immediately
 		- OnDestroy => runs immediately (including already pending destroyed events)
