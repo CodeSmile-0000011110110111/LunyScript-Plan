@@ -24,8 +24,8 @@
 	- Does NOT run again on re-enable
 	- Execution order: Before OnFixedStep
 - ### Regular Updates
-- **OnFixedStep**: Every physics step (0-N times per frame) (Unity: FixedUpdate, Godot)
-- **OnUpdate**: Once per frame
+- **OnFixedStep**: Every physics step (0-N times per frame) (Unity: FixedUpdate, Godot: _physics_process)
+- **OnUpdate**: Once per frame (Unity: Update, Godot: _process)
 - **OnLateUpdate**: Once per frame, after OnUpdate
 - ### Object Destruction
 - **OnDisable**: Runs immediately when disabled/destroyed
