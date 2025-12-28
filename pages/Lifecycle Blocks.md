@@ -21,7 +21,7 @@
 			- Note: this should be configurable to enable running whatever lifecycle update events follow the current event, for instance:
 				- created in OnFixedStep => runs OnUpdate + OnLateUpdate
 				- created in OnUpdate => runs OnLateUpdate
-				- created in
+				- created in OnLateUpdate => no updates until next frame
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => not received for the remainder of the current frame
