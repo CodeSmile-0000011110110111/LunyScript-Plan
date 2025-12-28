@@ -55,5 +55,5 @@
 		- OnDestroy => deferred to end of frame
 	- Scene unload
 		- OnDisable => runs immediately
-		- OnDestroy => runs immediately
+		- OnDestroy => runs immediately (including already pending destroyed events)
 	-
