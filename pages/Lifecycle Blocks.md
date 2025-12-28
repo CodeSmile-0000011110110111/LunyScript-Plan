@@ -17,7 +17,8 @@
 	- Objects created during a frame:
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
-		- OnFixedStep, On
+		- OnFixedStep, OnUpdate, OnLateUpdate => deferred until next frame
+			- Note: this should be configurable to enable running the "next
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => not received for the remainder of the current frame
