@@ -39,8 +39,8 @@
 	- Objects enabled during a frame (after being disabled before):
 		- OnEnable => runs immediately
 		- subsequent events => next frame (same as for create; OnReady does **not** run again)
-	- Object disabled/enabled multiple times per frame:
+	- Object created and disabled in same frame, or disabled/enabled multiple times per frame:
 		- runs OnDisable/OnEnable as described above
 		- final state at end of frame determines event handling in next frame
-	- Object created and disabled in same frame
+	-
 	-
