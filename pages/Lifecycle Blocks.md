@@ -43,6 +43,6 @@
 		- runs OnDisable/OnEnable as described above
 		- final state at end of frame determines event handling in next frame
 	- Object destroyed while disabled:
-		- OnDisable => does not run again
-		- OnDestroy => deferred (same as destroy)
+		- OnDisable => does not run again!
+		- OnDestroy => deferred to end of frame
 	-
