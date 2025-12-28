@@ -58,5 +58,6 @@
 		- OnDisable => runs immediately
 		- OnDestroy => runs immediately (including already pending destroyed events)
 - Lifecycle Test cases
-	-
+	- should simulate
+	- create object in various stages of scene updates
 	-
