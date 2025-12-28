@@ -17,7 +17,7 @@
 	- Objects created during a frame:
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
-		- OnReady => next frame (runs once per lifetime, before OnUpdate and before OnFixedStep if it runs in the current frame)
+		- OnReady => next frame (runs once per lifetime, before OnUpdate and before OnFixedStep if the fixed step event runs in the current frame)
 		- OnFixedStep => next frame
 		- OnUpdate => next frame
 		- OnLateUpdate => next frame
@@ -29,7 +29,7 @@
 		- OnDisable => runs immediately
 		- subsequent events => won't run
 		- OnDestroy => deferred to end of frame (after "last" event, currently: OnLateUpdate)
-	- Objects enabled (if disabled) during a frame:
+	- Objects enabled (after being disabled be) during a frame:
 		- OnEnable => runs immediately
 		- subsequent events => next frame (same as for create; OnReady does **not** run again)
 	- Objects disabled during a frame:
