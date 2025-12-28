@@ -33,9 +33,7 @@
 	- Runs after all OnLateUpdate calls complete
 	- Processes all pending destroys in batch
 - ## Participation Rules
-- Created During Frame (Default: Next Frame Mode)
--
-- Lifecycle Event Handling
+- Created During Frame / Readied & updating next frame
 	- Objects created during a frame:
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
