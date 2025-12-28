@@ -23,8 +23,8 @@
 		- OnLateUpdate => next frame
 		- Note: this should be configurable to enable running whatever lifecycle update events follow the current event (follows Unity's model):
 			- created in OnFixedStep => runs OnReady, OnUpdate, OnLateUpdate
-			- created in OnUpdate => runs OnLateUpdate
-			- created in OnLateUpdate => no updates until next frame
+			- created in OnUpdate => runs OnReady, OnLateUpdate (awkward but so be it)
+			- created in OnLateUpdate => next frame, same as above
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => don't run the "next" update (dependent on order of execution)
