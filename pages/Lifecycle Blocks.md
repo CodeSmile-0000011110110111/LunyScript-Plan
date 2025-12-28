@@ -86,7 +86,7 @@
 		- cancel all pending creation queues
 		- OnDisable => runs immediately
 		- OnDestroy => runs immediately (including already pending destroyed events)
-- Lifecycle Test cases
+- ## Lifecycle Test cases
 	- should simulate non-lifecycle events (eg collision) occuring before, during, and after current frame events to ensure correct order of execution
 	- in various stages of scene updates (OnFixedStep, OnUpdate, OnLateUpdate) and various stages of object creation (OnCreate, OnEnable, OnReady, OnDisable, OnDestroy)
 		- create object
