@@ -43,6 +43,8 @@
 	- Object created and disabled in same frame, or disabled/enabled multiple times per frame:
 		- runs OnDisable/OnEnable as described above
 		- final state at end of frame determines event handling in next frame
+	- Object created and destroyed in same frame:
+		- OnCreate, OnEnable
 	- Object destroyed while disabled:
 		- OnDisable => does not run again!
 		- OnDestroy => deferred to end of frame
