@@ -13,6 +13,12 @@
 - ContextRegistry
 	- must provide fast access to script by engine-native object
 -
+- # Tasks
+- NOW
+  :LOGBOOK:
+  CLOCK: [2025-12-28 Sun 13:00:01]
+  :END:
+-
 -
 - # LunyScript Object Lifecycle
 - ## Event Execution Timing
