@@ -107,5 +107,5 @@
 	- outside interference tests:  LunyScript-governed object modified via engine-native code only
 		- create/destroy
 		- enable/disable
-		- document behaviour
+		- document behaviour, ensure no exceptions occur
 	-
