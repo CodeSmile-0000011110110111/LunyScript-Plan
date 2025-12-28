@@ -24,7 +24,7 @@
 				- created in OnLateUpdate => no updates until next frame
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- OnUpdate, OnLateUpdate => not received
+		- OnUpdate, OnLateUpdate => not receiving the "next" update (current may )
 		- OnDestroy => deferred, runs at end of frame;
 	- OnEnable/OnDisable => run immediately
 	-
