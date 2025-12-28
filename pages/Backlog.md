@@ -1,6 +1,6 @@
-- NOW Engine Lifecycle:
+- LATER Engine Lifecycle: consider if Unity should call OnShutdown after all scripts executed (separate)
   :LOGBOOK:
-  CLOCK: [2025-12-28 Sun 19:09:45]
+  CLOCK: [2025-12-28 Sun 19:09:45]--[2025-12-28 Sun 19:10:29] =>  00:00:44
   :END:
 - DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
