@@ -20,7 +20,7 @@
   CLOCK: [2025-12-28 Sun 13:00:11]
   :END:
 	- timing and reliability of events
-	- consider additive vs whole scene unloading
+	- consider additive vs whole scene unloading cases
 -
 -
 - # LunyScript Object Lifecycle
