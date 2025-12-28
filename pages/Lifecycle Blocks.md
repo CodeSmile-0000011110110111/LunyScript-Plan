@@ -30,5 +30,6 @@
 		- OnEnable => runs immediately
 		- OnFixedStep, OnUpdate, OnLateUpdate => ??
 	- Objects disabled during a frame:
-		- OnDisb
+		- OnDisable => runs immediately
+		-
 	-
