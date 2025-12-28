@@ -14,11 +14,13 @@
 	- must provide fast access to script by engine-native object
 -
 - # Tasks
-- NOW gather info about scene unload event handling across engines, and timing of these events, and consider additive vs whole scene unloade
+- NOW gather info about scene unload event handling across engines
   :LOGBOOK:
   CLOCK: [2025-12-28 Sun 13:00:01]
   CLOCK: [2025-12-28 Sun 13:00:11]
   :END:
+	- timing and reliability of events
+	- consider additive vs whole scene unloading
 -
 -
 - # LunyScript Object Lifecycle
