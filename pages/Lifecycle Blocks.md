@@ -54,5 +54,6 @@
 		- OnDisable => does not run again!
 		- OnDestroy => deferred to end of frame
 	- Scene unload
-		- OnDestroy =>
+		- OnDisable => runs immediately
+		- OnDestroy => runs immediately
 	-
