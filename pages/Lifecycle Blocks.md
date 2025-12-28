@@ -63,5 +63,8 @@
 		- create object
 		- destroy existing object
 		- create and destroy object in same event
-		- create and destroy object in same frame but different events (eg create in OnFixedStep)
+		- create and destroy object in same frame but different events (eg create in OnUpdate, destroy in OnLateUpdate)
+		- enable object
+		- disable object
+		- enable/disable object multiple times in same event
 	-
