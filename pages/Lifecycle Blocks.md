@@ -26,7 +26,7 @@
 - ### Regular Updates
 - **OnFixedStep**: Every physics step (0-N times per frame) (Unity: FixedUpdate, Godot: _physics_process)
 - **OnUpdate**: Once per frame (Unity: Update, Godot: _process)
-- **OnLateUpdate**: Once per frame, after OnUpdate
+- **OnLateUpdate**: Once per frame, after OnUpdate (Unity: LateUpdate, Godot: N/A)
 - ### Object Destruction
 - **OnDisable**: Runs immediately when disabled/destroyed
 - **OnDestroy**: Deferred to end of frame
