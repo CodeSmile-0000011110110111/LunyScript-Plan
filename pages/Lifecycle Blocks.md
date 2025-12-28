@@ -53,4 +53,6 @@
 	- Object destroyed while disabled:
 		- OnDisable => does not run again!
 		- OnDestroy => deferred to end of frame
+	- Scene unload with pending object destruction
+		-
 	-
