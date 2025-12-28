@@ -93,5 +93,6 @@
 		- disable object, then destroy disabled object
 	- scene load/unload testing
 		- additive: some objects unloaded, others remain
-		- test with pending destroy events ()
+		- test with pending destroy events
+		- ensure scene destroy event order is the same across engines
 	-
