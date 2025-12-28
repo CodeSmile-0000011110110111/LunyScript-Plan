@@ -91,5 +91,7 @@
 		- create object and disable it in same event
 		- create object and disable it in same frame, different events
 		- disable object, then destroy disabled object
-	- scene load
+	- scene load/unload testing
+		- additive: some objects unloaded, others remain
+		- test with pending destroy events ()
 	-
