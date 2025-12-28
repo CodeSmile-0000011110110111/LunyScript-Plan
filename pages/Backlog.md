@@ -1,3 +1,7 @@
+- NOW Engine Lifecycle:
+  :LOGBOOK:
+  CLOCK: [2025-12-28 Sun 19:09:45]
+  :END:
 - DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
 - LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable) #lunyscript
