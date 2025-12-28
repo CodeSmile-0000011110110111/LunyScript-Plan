@@ -1,8 +1,3 @@
-- LATER Engine Lifecycle: consider if Unity should call OnShutdown after all scripts executed 
-  :LOGBOOK:
-  CLOCK: [2025-12-28 Sun 19:09:45]--[2025-12-28 Sun 19:10:29] =>  00:00:44
-  :END:
-	- needs separate MonoBehaviour adapter with late execution order
 - DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
 - LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable) #lunyscript
