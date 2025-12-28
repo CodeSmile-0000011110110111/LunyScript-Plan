@@ -28,7 +28,7 @@
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- subsequent events => won't run
-		- OnDestroy => runs at end of frame (after OnLateUpdate or whicheve)
+		- OnDestroy => runs at end of frame (after LunyScript's "latest" frame event, currently: OnLateUpdate)
 	- Objects enabled during a frame:
 		- OnEnable => runs immediately
 		- OnFixedStep, OnUpdate, OnLateUpdate => ??
