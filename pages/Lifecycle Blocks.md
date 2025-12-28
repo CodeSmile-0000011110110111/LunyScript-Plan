@@ -36,6 +36,5 @@
 		- OnLateUpdate =>
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
-		- OnUpdate, OnLateUpdate => don't run the "next" update (dependent on order of execution)
-		- other events (eg collision, input) => don't run, unless already ran
+		- subsequent events => won't run (same as destroy)
 	-
