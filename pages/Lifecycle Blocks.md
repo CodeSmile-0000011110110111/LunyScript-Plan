@@ -19,6 +19,7 @@
 		- OnEnable => runs immediately
 	- For objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- OnDestroy => deferred, runs at end of frame; BUT object no longer receives "update" events for the remainder of the current frame
+		- OnUpdate, OnLateUpdate => stopped object no longer receives "update" events for the remainder of the current frame
+		- OnDestroy => deferred, runs at end of frame;
 	- OnEnable/OnDisable => run immediately
 	-
