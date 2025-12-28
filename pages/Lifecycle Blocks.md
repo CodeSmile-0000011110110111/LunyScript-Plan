@@ -104,4 +104,6 @@
 		- additive: some objects unloaded, others remain
 		- test with pending destroy events
 		- ensure scene destroy event order is the same across engines
+	- outside interference tests
+		- destroy LunyScript
 	-
