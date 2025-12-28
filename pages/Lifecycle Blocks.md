@@ -104,6 +104,8 @@
 		- additive: some objects unloaded, others remain
 		- test with pending destroy events
 		- ensure scene destroy event order is the same across engines
-	- outside interference tests
-		- destroy LunyScript
+	- outside interference tests:  LunyScript-governed object with engine-native code
+		-
+		- create/destroy
+		- enable/disable
 	-
