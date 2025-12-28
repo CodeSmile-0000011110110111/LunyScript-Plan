@@ -18,13 +18,13 @@
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
 		- OnUpdate, OnLateUpdate => deferred until next frame
-			- Note: this should be configurable to enable running whatever lifecycle update events follow the current event, for instance:
+			- Note: this should be configurable to enable running whatever lifecycle update events follow the current event (follows Unity's model):
 				- created in OnFixedStep => runs OnUpdate + OnLateUpdate
 				- created in OnUpdate => runs OnLateUpdate
 				- created in OnLateUpdate => no updates until next frame
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- OnUpdate, OnLateUpdate => not received for the remainder of the current frame
+		- OnUpdate, OnLateUpdate => not received
 		- OnDestroy => deferred, runs at end of frame;
 	- OnEnable/OnDisable => run immediately
 	-
