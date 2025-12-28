@@ -17,14 +17,14 @@
 	- Objects created during a frame:
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
-		- OnReady => deferred until next frame
-		- OnFixedStep => deferred until next frame
-		- OnUpdate => deferred until next frame
-		- OnLateUpdate => deferred until next frame
-			- Note: this should be configurable to enable running whatever lifecycle update events follow the current event (follows Unity's model):
-				- created in OnFixedStep => runs OnUpdate + OnLateUpdate
-				- created in OnUpdate => runs OnLateUpdate
-				- created in OnLateUpdate => no updates until next frame
+		- OnReady => next frame
+		- OnFixedStep => next frame
+		- OnUpdate => next frame
+		- OnLateUpdate => next frame
+		- Note: this should be configurable to enable running whatever lifecycle update events follow the current event (follows Unity's model):
+			- created in OnFixedStep => runs OnReady, OnUpdate, OnLateUpdate
+			- created in OnUpdate => runs OnLateUpdate
+			- created in OnLateUpdate => no updates until next frame
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => don't run the "next" update (dependent on order of execution)
