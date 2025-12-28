@@ -28,8 +28,8 @@
 - **OnUpdate**: Once per frame (Unity: Update, Godot: _process)
 - **OnLateUpdate**: Once per frame, after OnUpdate (Unity: LateUpdate, Godot: N/A)
 - ### Object Destruction
-- **OnDisable**: Runs immediately when disabled/destroyed
-- **OnDestroy**: Deferred to end of frame
+- **OnDisable**: Runs immediately when disabled/destroyed (Unity: OnDisable, Godot: _exit_tree)
+- **OnDestroy**: Deferred to end of frame (Unity: OnDestroy, Godot: N/A)
 	- Runs after all OnLateUpdate calls complete
 	- Processes all pending destroys in batch
 - ## Participation Rules
