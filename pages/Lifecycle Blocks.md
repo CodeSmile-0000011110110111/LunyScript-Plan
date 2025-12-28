@@ -58,6 +58,7 @@
 		- OnDisable => runs immediately
 		- OnDestroy => runs immediately (including already pending destroyed events)
 - Lifecycle Test cases
-	- should simulate non-lifecycle events (eg collision) occuring early, during, and a
+	- should simulate non-lifecycle events (eg collision) occuring before, during, and after current frame events to ensure correct order of execution
 	- create object in various stages of scene updates
+	- destroy object
 	-
