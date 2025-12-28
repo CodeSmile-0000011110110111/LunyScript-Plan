@@ -19,7 +19,9 @@
 		- OnEnable => runs immediately
 		- OnUpdate, OnLateUpdate => deferred until next frame
 			- Note: this should be configurable to enable running the "next" update
-				- create in On => runs Update + LateUpdate)
+				- created in OnFixedStep => runs all update OnUpdate + OnLateUpdate
+				- created in OnUpdate => runs OnLateUpdate
+				- created in
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => not received for the remainder of the current frame
