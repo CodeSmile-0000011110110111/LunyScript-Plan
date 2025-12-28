@@ -54,6 +54,7 @@
 		- OnDisable => does not run again!
 		- OnDestroy => deferred to end of frame
 	- Scene unload
+		- cancel all pending creation queues
 		- OnDisable => runs immediately
 		- OnDestroy => runs immediately (including already pending destroyed events)
 	-
