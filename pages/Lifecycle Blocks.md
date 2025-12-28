@@ -41,5 +41,6 @@
 		- subsequent events => next frame (same as for create; OnReady does **not** run again)
 	- Object disabled/enabled multiple times per frame:
 		- runs OnDisable/OnEnable as described above
-		- final state
+		- final state at end of frame determines event handling in next frame
+	-
 	-
