@@ -18,13 +18,13 @@
 - ## Event Execution Timing
 - ### Object Creation
 - **OnCreate**: Runs immediately when object is created (Unity: Awake, Godot: _init)
-- **OnEnable**: Runs immediately after OnCreate
-- **OnReady**: Runs once before first update (next frame by default)
+- **OnEnable**: Runs immediately after OnCreate (Unity: OnEnable, Godot: _enter_tree)
+- **OnReady**: Runs once before first update (next frame by default) (Unity: Start, Godot: _ready)
 	- Only runs once per object lifetime
 	- Does NOT run again on re-enable
 	- Execution order: Before OnFixedStep
 - ### Regular Updates
-- **OnFixedStep**: Every physics step (0-N times per frame)
+- **OnFixedStep**: Every physics step (0-N times per frame) (Unity: FixedUpdate, Godot)
 - **OnUpdate**: Once per frame
 - **OnLateUpdate**: Once per frame, after OnUpdate
 - ### Object Destruction
