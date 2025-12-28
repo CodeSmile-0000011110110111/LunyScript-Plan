@@ -24,12 +24,12 @@
 				- created in OnLateUpdate => no updates until next frame
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- OnUpdate, OnLateUpdate => don't run the "next" update (current may or may not run, depending on order of execution ie if A destroys B in A's OnUpdate then B will run OnUpdate if it executes before A, otherwise it won't run OnUpdate)
+		- OnUpdate, OnLateUpdate => don't run the "next" update (dependent on order of execution)
 		- OnDestroy => deferred, runs at end of frame
 	- Objects enabled during a frame:
 		- OnEnable => runs immediately
 		- OnFixedStep, OnUpdate, OnLateUpdate => ??
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
-		- OnFixedStep, OnUpdate, OnLateUpdate => don't run the "next" one
+		- OnFixedStep, OnUpdate, OnLateUpdate => don't run the "next" update  (dependent on order of execution)
 	-
