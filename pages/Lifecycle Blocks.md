@@ -31,7 +31,11 @@
 		- OnDestroy => deferred to end of frame (after "last" event, currently: OnLateUpdate)
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
-		- subsequent events => won't run (object and its children is not updating, not participating in physics simulation physics, not visible)
+		- subsequent events => won't run
+		- behaviour of object and its children in disabled state:
+			- not updating
+			- not participating in physics simulation
+			- not rendering / not visible
 	- Objects enabled during a frame (after being disabled before):
 		- OnEnable => runs immediately
 		- subsequent events => next frame (same as for create; OnReady does **not** run again)
