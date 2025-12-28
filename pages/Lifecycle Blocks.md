@@ -17,7 +17,7 @@
 - # LunyScript Object Lifecycle
 - ## Event Execution Timing
 - ### Object Creation
-- **OnCreate**: Runs immediately when object is created
+- **OnCreate**: Runs immediately when object is created (Unity: Awake, Godot: _init)
 - **OnEnable**: Runs immediately after OnCreate
 - **OnReady**: Runs once before first update (next frame by default)
 	- Only runs once per object lifetime
