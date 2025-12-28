@@ -26,7 +26,9 @@
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => not receiving the "next" update (current may or may not run, depending on order of execution ie if A destroys B in A's OnUpdate then B will run OnUpdate if it executes before A, otherwise it won't run OnUpdate)
 		- OnDestroy => deferred, runs at end of frame
-	- Objects set active during a frame:
+	- Objects enabled during a frame:
 		- OnEnable => runs immediately
-		-
+		- OnFixedStep, OnUpdate, OnLateUpdate => ??
+	- Objects disabled during a frame:
+		- OnDisb
 	-
