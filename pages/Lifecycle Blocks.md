@@ -29,10 +29,10 @@
 		- OnDisable => runs immediately
 		- subsequent events => won't run
 		- OnDestroy => deferred to end of frame (after "last" event, currently: OnLateUpdate)
-	- Objects enabled (after being disabled be) during a frame:
-		- OnEnable => runs immediately
-		- subsequent events => next frame (same as for create; OnReady does **not** run again)
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
-		- subsequent events => won't run (same as for "destroy")
+		- subsequent events => won't run
+	- Objects enabled during a frame (after being disabled before):
+		- OnEnable => runs immediately
+		- subsequent events => next frame (same as for create; OnReady does **not** run again)
 	-
