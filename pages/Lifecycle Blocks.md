@@ -27,13 +27,13 @@
 			- created in OnLateUpdate => next frame, same as above
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
-		- subsequent events => won't run
+		- subsequent events => won't run (see disabled state for the )
 		- OnDestroy => deferred to end of frame (after "last" event, currently: OnLateUpdate)
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
 		- subsequent events => won't run
 		- behaviour of object and its children in disabled state:
-			- not processing events (update)
+			- not processing events (update, input, collision)
 			- not participating in physics simulation
 			- not rendering / not visible
 	- Objects enabled during a frame (after being disabled before):
