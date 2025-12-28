@@ -59,6 +59,7 @@
 		- OnDestroy => runs immediately (including already pending destroyed events)
 - Lifecycle Test cases
 	- should simulate non-lifecycle events (eg collision) occuring before, during, and after current frame events to ensure correct order of execution
+	- in various stages of scene updates (OnFixedStep, OnUpdate, OnLateUpdate) and various stages of
 	- create object in various stages of scene updates
 	- destroy object
 	-
