@@ -14,6 +14,7 @@
 	- must provide fast access to script by engine-native object
 -
 - Lifecycle Event Handling
+	-
 	- OnCreate => runs immediately
 	- OnDestroy => deferred until end of frame, but object no longer receives "update" events for the remainder of the current frame
 	- OnEnable/OnDisable => run immediately
