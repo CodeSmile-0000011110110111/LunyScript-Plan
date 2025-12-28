@@ -33,7 +33,7 @@
 	- Runs after all OnLateUpdate calls complete
 	- Processes all pending destroys in batch
 - ## Participation Rules
-- ### Created During Frame (Default: Next Frame Mode)
+- Created During Frame (Default: Next Frame Mode)
 -
 - Lifecycle Event Handling
 	- Objects created during a frame:
