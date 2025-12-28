@@ -13,6 +13,28 @@
 - ContextRegistry
 	- must provide fast access to script by engine-native object
 -
+-
+- # LunyScript Object Lifecycle
+- ## Event Execution Timing
+- ### Object Creation
+- **OnCreate**: Runs immediately when object is created
+- **OnEnable**: Runs immediately after OnCreate
+- **OnReady**: Runs once before first update (next frame by default)
+	- Only runs once per object lifetime
+	- Does NOT run again on re-enable
+	- Execution order: Before OnFixedStep
+- ### Regular Updates
+- **OnFixedStep**: Every physics step (0-N times per frame)
+- **OnUpdate**: Once per frame
+- **OnLateUpdate**: Once per frame, after OnUpdate
+- ### Object Destruction
+- **OnDisable**: Runs immediately when disabled/destroyed
+- **OnDestroy**: Deferred to end of frame
+	- Runs after all OnLateUpdate calls complete
+	- Processes all pending destroys in batch
+- ## Participation Rules
+- ### Created During Frame (Default: Next Frame Mode)
+-
 - Lifecycle Event Handling
 	- Objects created during a frame:
 		- OnCreate => runs immediately
