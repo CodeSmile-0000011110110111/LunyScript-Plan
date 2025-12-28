@@ -25,7 +25,7 @@
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => don't run the "next" update (dependent on order of execution)
-		-
+		- other events (ie collision, input) => don't run
 		- OnDestroy => deferred, runs at end of frame
 	- Objects enabled during a frame:
 		- OnEnable => runs immediately
@@ -33,4 +33,5 @@
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
 		- OnUpdate, OnLateUpdate => don't run the "next" update (dependent on order of execution)
+		- other events (eg collision, input)
 	-
