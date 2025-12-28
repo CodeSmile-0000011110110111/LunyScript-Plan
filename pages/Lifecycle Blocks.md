@@ -15,6 +15,6 @@
 -
 - Lifecycle Event Handling
 	- OnCreate => runs immediately
-	- OnDestroy => deferred until end of frame
+	- OnDestroy => deferred until end of frame, but object does not run
 	- OnEnable/OnDisable => run immediately
 	-
