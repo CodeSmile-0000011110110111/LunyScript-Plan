@@ -44,10 +44,12 @@
 		- runs OnDisable/OnEnable as described above
 		- final state at end of frame determines event handling in next frame
 	- Object created and destroyed immediately:
-		- OnCreate, OnEnable => runs immediately
+		- OnCreate => runs immediately
+		- OnEnable => runs immediately
+		- OnReady => won't run
 		- subsequent events (update, input, etc) => won't run
 		- OnDisable => runs immediately
-		-
+		- OnDestroy => deferred to end of frame
 	- Object destroyed while disabled:
 		- OnDisable => does not run again!
 		- OnDestroy => deferred to end of frame
