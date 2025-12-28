@@ -17,7 +17,7 @@
 	- Objects created during a frame:
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
-		- OnReady => next frame (once per lifetime, runs before OnFixedStep)
+		- OnReady => next frame (runs once per lifetime, before OnFixedStep and OnUpdate)
 		- OnFixedStep => next frame
 		- OnUpdate => next frame
 		- OnLateUpdate => next frame
