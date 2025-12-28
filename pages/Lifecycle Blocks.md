@@ -61,5 +61,7 @@
 	- should simulate non-lifecycle events (eg collision) occuring before, during, and after current frame events to ensure correct order of execution
 	- in various stages of scene updates (OnFixedStep, OnUpdate, OnLateUpdate) and various stages of object creation (OnCreate, OnEnable, OnReady, OnDisable, OnDestroy)
 		- create object
-		- destroy object
+		- destroy existing object
+		- create and destroy object in same event
+		- create and destroy object in same frame but different events (eg create in OnFixedStep)
 	-
