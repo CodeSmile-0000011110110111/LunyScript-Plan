@@ -47,7 +47,7 @@
 		- OnCreate => runs immediately
 		- OnEnable => runs immediately
 		- OnReady, OnFixedStep, OnUpdate, OnLateUpdate => won't run
-		- subsequent events (update, input, etc) => won't run
+		- subsequent events (input, collision, etc) => won't run
 		- OnDisable => runs immediately
 		- OnDestroy => deferred to end of frame
 	- Object destroyed while disabled:
