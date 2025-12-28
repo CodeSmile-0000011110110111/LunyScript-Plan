@@ -28,7 +28,7 @@
 	- Objects destroyed during a frame:
 		- OnDisable => runs immediately
 		- subsequent events => won't run (see "disabled state" for the remainder of the frame)
-		- OnDestroy => deferred to end of frame (after "last" event, currently after OnLateUpdate)
+		- OnDestroy => deferred to end of frame (after frame event processing completes, eg after all objects ran their OnLateUpdate)
 	- Objects disabled during a frame:
 		- OnDisable => runs immediately
 		- subsequent events => won't run
