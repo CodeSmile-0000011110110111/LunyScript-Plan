@@ -33,7 +33,7 @@
 		- OnDisable => runs immediately
 		- subsequent events => won't run
 		- behaviour of object and its children in disabled state:
-			- not updating
+			- not processing events (update)
 			- not participating in physics simulation
 			- not rendering / not visible
 	- Objects enabled during a frame (after being disabled before):
