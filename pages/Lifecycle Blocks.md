@@ -14,5 +14,7 @@
 	- must provide fast access to script by engine-native object
 -
 - Lifecycle Event Handling
+	- OnCreate => runs immediately
+	-
 	- OnEnable/OnDisable => run immediately
 	-
