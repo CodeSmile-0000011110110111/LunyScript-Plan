@@ -3,7 +3,7 @@
 - LATER [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
-- LATER [[Refactor LunyScript]] API #lunyscript
+- DONE [[Refactor LunyScript]] API #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
 - LATER [[Diagnostics]] Debug Blocks should not be filtered out in release builds (not executing)
 - LATER [[LunyScript Hot Reload]] with manual triggers #lunyscript
@@ -15,3 +15,4 @@
 - LATER [[Resource Addressing]] (eg LunyUrl) #luny
 - LATER [[Lua Integration]] #luny
 - LATER Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
+- LATER refactor to Vars.Global[] and maybe Vars.G[] as alias
