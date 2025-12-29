@@ -14,5 +14,5 @@
 - LATER [[Testing Infrastructure]] #luny #lunyscript
 - LATER [[Resource Addressing]] (eg LunyUrl) #luny
 - LATER [[Lua Integration]] #luny
-- LATER Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
+- DONE Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
 - LATER Variables refactor to Vars.Global[] and maybe Vars.G[] as alias
