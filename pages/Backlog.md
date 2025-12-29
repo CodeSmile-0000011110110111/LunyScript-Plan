@@ -1,7 +1,7 @@
 - DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
-- LATER [[Lifecycle Blocks]] with events (create/destroy, enable/disable) #lunyscript
-- LATER [[Lifecycle Blocks]] engine API for regular code #lunyscript
+- LATER [[Lifecycle]] with events (create/destroy, enable/disable) #lunyscript
+- LATER [[Lifecycle]] engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - LATER [[Refactor LunyScript]] API #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
