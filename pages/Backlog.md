@@ -4,6 +4,8 @@
 - LATER [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
+- LATER Lifecycle concerns
+	- Enabled state change should consider whether the object is
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
 - LATER [[Diagnostics]] Debug Blocks should not be filtered out in release builds (not executing)
