@@ -6,9 +6,9 @@
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - LATER Lifecycle concerns
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
-	- NOW LunyScriptRunner startup should register object with lifecycle manager which then runs the events
+	- DONE LunyScriptRunner startup should register object with lifecycle manager which then runs the events
 	  :LOGBOOK:
-	  CLOCK: [2025-12-30 Tue 20:08:41]
+	  CLOCK: [2025-12-30 Tue 20:08:41]--[2025-12-31 Wed 12:11:03] =>  16:02:22
 	  :END:
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
