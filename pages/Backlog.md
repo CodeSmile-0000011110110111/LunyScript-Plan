@@ -4,7 +4,8 @@
 - LATER [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
-- LATER Lifecycle concerns
+- ### Lifecycle concerns
+	- LATER
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 	- DONE LunyScriptRunner startup should register object with lifecycle manager which then runs the events
 	  :LOGBOOK:
