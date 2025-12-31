@@ -6,7 +6,7 @@
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
 	- LATER Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
-	- LATER need to handle LunyObject parenting (including )
+	- LATER need to handle LunyObject parenting (including a disconnected hierarchy)
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 	- DONE LunyScriptRunner startup should register object with lifecycle manager which then runs the events
 	  :LOGBOOK:
