@@ -40,7 +40,7 @@
 		- => **LunyScript.Build()** to build the script runnable instances (builder pattern)
 		- => **LunyScript.Shutdown()** for any cleanup
 		- => **LifecycleManager.Register(context)**
-			- adds event handlers to ScriptContext object lifecycle events (OnEnable, OnDestroy, ..)
+			- adds event handlers to ScriptContext object lifecycle events (OnEnable, OnDestroy, ..
 	- => **ScriptActivator.ActivateScripts(all contexts)**
 		- for each context, calls:
 			- => **context.Activate()** => **LunyObject.Activate()** => sends OnCreate, OnEnable
