@@ -43,7 +43,7 @@
 			- adds event handlers to in-use lifecycle events (only those in use by Script)
 	- => **ScriptActivator.ActivateScripts(all contexts)**
 		- for each context, calls:
-			- => **context.Activate()** => **LunyObject.Activate()** => sends OnCreate, OnEnable
+			- => **context.Activate()** => **LunyObject.Activate()** => sends initial OnCreate, OnEnable
 - ## Event Execution Timing
 - ### Object Creation
 - **OnCreate**: Runs immediately when object is created (Unity: Awake, Godot: _init)
