@@ -24,6 +24,26 @@
 -
 -
 - # LunyScript Object Lifecycle
+- ## Implementation Overview
+- => **LunyScriptRunner()**
+	- => **ScriptRegistry.DiscoverScripts**
+		- find scripts by type
+		- creates **ScriptDefinition** (ID) for each type
+- => **ScriptRunner.OnStartup**
+	- => **ScriptActivator.CreateContexts(sceneObjects)**
+		- takes a list of objects (on startup: all scene objects), returns ScriptContext for scripted objects
+		- => **ScriptContextRegistry.CreateContext(scriptDef, sceneObject)**
+			- creates and stores the ScriptContext instance
+	- => **ScriptActivator.BuildScripts(all contexts)**
+		- for each context, calls
+		- => **LunyScript.Initialize()** to pass the ScriptContext
+		- => **LunyScript.Build()** to build the script runnable instances (builder pattern)
+		- => **LunyScript.Shutdown()** for any cleanup
+		- => **LifecycleManager.Register(context)**
+			- adds event handlers to ScriptContext object lifecycle events (OnEnable, OnDestroy, ..)
+	- => **ScriptActivator.ActivateScripts(all contexts)**
+		- for each context, calls:
+			- => **context.Activate()** => **LunyObject.Activate()** => sends OnCreate, OnEnable
 - ## Event Execution Timing
 - ### Object Creation
 - **OnCreate**: Runs immediately when object is created (Unity: Awake, Godot: _init)
