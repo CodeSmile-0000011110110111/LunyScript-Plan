@@ -5,12 +5,6 @@
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
-	- NOW merge ScriptRunner with LunyScript Engine
-	  :LOGBOOK:
-	  CLOCK: [2026-01-03 Sat 00:14:19]
-	  CLOCK: [2026-01-03 Sat 00:14:20]
-	  CLOCK: [2026-01-03 Sat 00:14:22]
-	  :END:
 	- NOW Create then Destroy() does not run OnDisable
 	  :LOGBOOK:
 	  CLOCK: [2026-01-03 Sat 00:12:52]
