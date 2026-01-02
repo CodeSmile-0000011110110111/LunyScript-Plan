@@ -5,6 +5,10 @@
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
+	- NOW Create then Destroy() does not run OnDisable
+	  :LOGBOOK:
+	  CLOCK: [2026-01-03 Sat 00:12:52]
+	  :END:
 	- NOW LunyEngine: observers should init right away (remove SceneService instance requirement)
 	  :LOGBOOK:
 	  CLOCK: [2026-01-02 Fri 21:28:33]
