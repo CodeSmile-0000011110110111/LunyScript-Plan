@@ -5,6 +5,10 @@
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
+	- NOW LunyEngine
+	  :LOGBOOK:
+	  CLOCK: [2026-01-02 Fri 21:28:33]
+	  :END:
 	- LATER Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
 	- LATER need to handle LunyObject parenting (including a disconnected hierarchy)
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
@@ -25,3 +29,10 @@
 - LATER [[Lua Integration]] #luny
 - DONE Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
 - LATER Variables refactor to Vars.Global[] and maybe Vars.G[] as alias
+-
+-
+- possible improvements
+	- case insensitive activator object-script name matching
+	- configurable name matching "starts with" or "contains"
+	- add variable validation (log read access of non-existing variables instead of silently returning a default value)
+	- local variables are bound to an object, but we should have metadata for debugging which global variables a script reads, and which ones it changes (or may change)
