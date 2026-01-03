@@ -14,9 +14,9 @@
 	  :LOGBOOK:
 	  CLOCK: [2025-12-30 Tue 20:08:41]--[2025-12-31 Wed 12:11:03] =>  16:02:22
 	  :END:
-	- NOW LunyEngine: observers should init right away (remove SceneService instance requirement)
+	- DONE LunyEngine: observers should init right away (remove SceneService instance requirement)
 	  :LOGBOOK:
-	  CLOCK: [2026-01-02 Fri 21:28:33]
+	  CLOCK: [2026-01-02 Fri 21:28:33]--[2026-01-03 Sat 20:06:02] =>  22:37:29
 	  :END:
 	- NOW OnReady handling => put objects in a queue and process the queue up front so that all new objects in this frame run OnReady before FixedStep or Update
 	  :LOGBOOK:
