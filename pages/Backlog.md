@@ -5,6 +5,13 @@
 - LATER [[Lifecycle]] create/enable engine API for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
+	- NOW Manage framecount internally in LunyEngine
+	  :LOGBOOK:
+	  CLOCK: [2026-01-03 Sat 14:02:13]
+	  CLOCK: [2026-01-03 Sat 14:02:15]
+	  :END:
+		- Unity: framecount is 0 in Awake + OnEnable but 1 in Start and updates
+		-
 	- NOW LunyEngine: observers should init right away (remove SceneService instance requirement)
 	  :LOGBOOK:
 	  CLOCK: [2026-01-02 Fri 21:28:33]
