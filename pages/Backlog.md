@@ -31,6 +31,7 @@
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
+-
 - DONE [[Diagnostics]] Debug Blocks should be filtered out in release builds (not executing)
 - LATER [[LunyScript Hot Reload]] with manual triggers #lunyscript
 - LATER [[Conditional Blocks]] (if/else) #lunyscript
