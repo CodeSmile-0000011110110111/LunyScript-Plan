@@ -1,8 +1,8 @@
 - DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
 - DONE [[Refactor LunyScript]] API #lunyscript
-- DONE [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 - ### Lifecycle concerns
+	- DONE [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 	- DONE Manage framecount internally in LunyEngine
 	  :LOGBOOK:
 	  CLOCK: [2026-01-03 Sat 14:02:13]
@@ -10,6 +10,10 @@
 	  :END:
 		- Unity: framecount is 0 in Awake & OnEnable, then increments to 1 before Start()
 		- Godot: framecount is 0 throughout the first frame
+	- DONE LunyScriptRunner startup should register object with lifecycle manager which then runs the events
+	  :LOGBOOK:
+	  CLOCK: [2025-12-30 Tue 20:08:41]--[2025-12-31 Wed 12:11:03] =>  16:02:22
+	  :END:
 	- NOW LunyEngine: observers should init right away (remove SceneService instance requirement)
 	  :LOGBOOK:
 	  CLOCK: [2026-01-02 Fri 21:28:33]
@@ -23,12 +27,8 @@
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
-	- DONE LunyScriptRunner startup should register object with lifecycle manager which then runs the events
-	  :LOGBOOK:
-	  CLOCK: [2025-12-30 Tue 20:08:41]--[2025-12-31 Wed 12:11:03] =>  16:02:22
-	  :END:
-- LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
-	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
+	- LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
+		- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
 - DONE [[Diagnostics]] Debug Blocks should be filtered out in release builds (not executing)
