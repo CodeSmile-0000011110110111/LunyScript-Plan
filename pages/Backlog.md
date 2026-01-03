@@ -10,8 +10,8 @@
 	  CLOCK: [2026-01-03 Sat 14:02:13]
 	  CLOCK: [2026-01-03 Sat 14:02:15]
 	  :END:
-		- Unity: framecount is 0 in Awake + OnEnable but 1 in Start and updates
-		-
+		- Unity: framecount is 0 in Awake & OnEnable, then increments to 1 before Start()
+		- Godot: framecount is 0 throughout the first frame
 	- NOW LunyEngine: observers should init right away (remove SceneService instance requirement)
 	  :LOGBOOK:
 	  CLOCK: [2026-01-02 Fri 21:28:33]
