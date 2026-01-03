@@ -5,10 +5,10 @@
 - LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
 	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
-	- NOW Manage framecount internally in LunyEngine
+	- DONE Manage framecount internally in LunyEngine
 	  :LOGBOOK:
 	  CLOCK: [2026-01-03 Sat 14:02:13]
-	  CLOCK: [2026-01-03 Sat 14:02:15]
+	  CLOCK: [2026-01-03 Sat 14:02:15]--[2026-01-03 Sat 19:49:46] =>  05:47:31
 	  :END:
 		- Unity: framecount is 0 in Awake & OnEnable, then increments to 1 before Start()
 		- Godot: framecount is 0 throughout the first frame
