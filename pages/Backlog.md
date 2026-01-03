@@ -18,10 +18,10 @@
 	  :LOGBOOK:
 	  CLOCK: [2026-01-02 Fri 21:28:33]--[2026-01-03 Sat 20:06:02] =>  22:37:29
 	  :END:
-	- NOW OnReady handling => put objects in a queue and process the queue up front so that all new objects in this frame run OnReady before FixedStep or Update
+	- DONE OnReady handling => put objects in a queue and process the queue up front so that all new objects in this frame run OnReady before FixedStep or Update
 	  :LOGBOOK:
 	  CLOCK: [2026-01-02 Fri 23:43:45]
-	  CLOCK: [2026-01-02 Fri 23:43:50]
+	  CLOCK: [2026-01-02 Fri 23:43:50]--[2026-01-03 Sat 22:50:19] =>  23:06:29
 	  :END:
 	- LATER Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
