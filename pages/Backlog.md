@@ -2,8 +2,6 @@
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
 - DONE [[Refactor LunyScript]] API #lunyscript
 - DONE [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
-- LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
-	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - ### Lifecycle concerns
 	- DONE Manage framecount internally in LunyEngine
 	  :LOGBOOK:
@@ -29,9 +27,11 @@
 	  :LOGBOOK:
 	  CLOCK: [2025-12-30 Tue 20:08:41]--[2025-12-31 Wed 12:11:03] =>  16:02:22
 	  :END:
+- LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
+	- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
-- LATER [[Diagnostics]] Debug Blocks should not be filtered out in release builds (not executing)
+- DONE [[Diagnostics]] Debug Blocks should be filtered out in release builds (not executing)
 - LATER [[LunyScript Hot Reload]] with manual triggers #lunyscript
 - LATER [[Conditional Blocks]] (if/else) #lunyscript
 - LATER [[Composite Blocks]] (loops, timers, coroutines) #lunyscript
