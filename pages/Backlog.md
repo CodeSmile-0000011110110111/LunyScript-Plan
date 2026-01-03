@@ -22,7 +22,7 @@
 	  CLOCK: [2026-01-02 Fri 23:43:50]
 	  :END:
 	- LATER Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
-	- LATER need to handle LunyObject parenting (including a disconnected hierarchy)
+	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 	- DONE LunyScriptRunner startup should register object with lifecycle manager which then runs the events
