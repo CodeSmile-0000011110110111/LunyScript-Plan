@@ -31,7 +31,10 @@
 - ## SceneService Concerns
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 - ## LunyObject Concerns
-	- LATER move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
+	- NOW move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
+	  :LOGBOOK:
+	  CLOCK: [2026-01-04 Sun 17:18:15]
+	  :END:
 	- LATER rename to LunyUnityGameObject and LunyGodotNode
 	- LATER rename As<> to Cast<>
 - ## Cleanup Concerns
