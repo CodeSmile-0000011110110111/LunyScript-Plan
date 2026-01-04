@@ -31,7 +31,7 @@
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 - ## LunyObject concerns
 	- LATER move _isEnabled and _isDestroyed to LunyObject base class
-	- LATER rename to LunyUnityGameObjectUnityGameObject and LunyObjectGodot
+	- LATER rename to LunyUnityGameObject and LunyGodotNode
 - ## Other Concerns
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
