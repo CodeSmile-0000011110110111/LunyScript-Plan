@@ -23,10 +23,10 @@
 	  CLOCK: [2026-01-02 Fri 23:43:45]
 	  CLOCK: [2026-01-02 Fri 23:43:50]--[2026-01-03 Sat 22:50:19] =>  23:06:29
 	  :END:
+	- DONE Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
 	- LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
 		- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
-	- LATER Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
 - ## LunyObject concerns
