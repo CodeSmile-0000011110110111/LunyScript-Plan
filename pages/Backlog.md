@@ -1,7 +1,7 @@
 - DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 - DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
 - DONE [[Refactor LunyScript]] API #lunyscript
-- ### Lifecycle concerns
+- ## Lifecycle concerns
 	- DONE [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 	- DONE Manage framecount internally in LunyEngine
 	  :LOGBOOK:
@@ -33,6 +33,7 @@
 	- LATER move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	- LATER rename to LunyUnityGameObject and LunyGodotNode
 	- LATER rename As<> to Cast<>
+-
 - ## Other Concerns
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
