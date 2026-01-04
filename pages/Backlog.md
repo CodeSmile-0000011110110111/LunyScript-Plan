@@ -32,6 +32,7 @@
 - ## LunyObject concerns
 	- LATER move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	- LATER rename to LunyUnityGameObject and LunyGodotNode
+	- LATER rename As
 - ## Other Concerns
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
