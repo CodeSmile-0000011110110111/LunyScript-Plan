@@ -30,6 +30,7 @@
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 - ## SceneService Concerns
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
+	- scene load
 - ## LunyObject Concerns
 	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
