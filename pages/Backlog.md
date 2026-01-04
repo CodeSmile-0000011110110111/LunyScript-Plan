@@ -36,9 +36,9 @@
 	  CLOCK: [2026-01-04 Sun 17:18:15]--[2026-01-04 Sun 17:18:18] =>  00:00:03
 	  CLOCK: [2026-01-04 Sun 17:18:19]
 	  :END:
-	- NOW rename to LunyUnityGameObject and LunyGodotNode
+	- DONE rename with "Luny" prefixes everywhere
 	  :LOGBOOK:
-	  CLOCK: [2026-01-04 Sun 17:18:25]
+	  CLOCK: [2026-01-04 Sun 17:18:25]--[2026-01-04 Sun 18:04:57] =>  00:46:32
 	  :END:
 	- NOW rename As<> to Cast<>
 	  :LOGBOOK:
