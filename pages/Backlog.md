@@ -29,6 +29,9 @@
 	- LATER Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 	- LATER Enabled state change should call OnEnable/OnDisable to child LunyObjects as well
+- ## LunyObject concerns
+	- LATER
+- ## Other Concerns
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
 - LATER Diagnostics add internal verbose logging with log levels (perhaps categories for filtering?)
