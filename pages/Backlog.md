@@ -33,10 +33,17 @@
 - ## LunyObject Concerns
 	- NOW move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
-	  CLOCK: [2026-01-04 Sun 17:18:15]
+	  CLOCK: [2026-01-04 Sun 17:18:15]--[2026-01-04 Sun 17:18:18] =>  00:00:03
+	  CLOCK: [2026-01-04 Sun 17:18:19]
 	  :END:
-	- LATER rename to LunyUnityGameObject and LunyGodotNode
-	- LATER rename As<> to Cast<>
+	- NOW rename to LunyUnityGameObject and LunyGodotNode
+	  :LOGBOOK:
+	  CLOCK: [2026-01-04 Sun 17:18:25]
+	  :END:
+	- NOW rename As<> to Cast<>
+	  :LOGBOOK:
+	  CLOCK: [2026-01-04 Sun 17:18:27]
+	  :END:
 - ## Cleanup Concerns
 - LATER prefix with Luny
 - LATER refactor and remove LunyThrow
