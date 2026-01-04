@@ -31,21 +31,21 @@
 - ## SceneService Concerns
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 - ## LunyObject Concerns
-	- NOW move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
+	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
 	  CLOCK: [2026-01-04 Sun 17:18:15]--[2026-01-04 Sun 17:18:18] =>  00:00:03
-	  CLOCK: [2026-01-04 Sun 17:18:19]
+	  CLOCK: [2026-01-04 Sun 17:18:19]--[2026-01-04 Sun 20:46:08] =>  03:27:49
 	  :END:
 	- DONE rename with "Luny" prefixes everywhere
 	  :LOGBOOK:
 	  CLOCK: [2026-01-04 Sun 17:18:25]--[2026-01-04 Sun 18:04:57] =>  00:46:32
 	  :END:
-	- NOW rename As<> to Cast<>
+	- DONE rename As<> to Cast<>
 	  :LOGBOOK:
-	  CLOCK: [2026-01-04 Sun 17:18:27]
+	  CLOCK: [2026-01-04 Sun 17:18:27]--[2026-01-04 Sun 20:46:12] =>  03:27:45
 	  :END:
 - ## Cleanup Concerns
-- LATER prefix with Luny
+- DONE prefix with Luny
 - LATER refactor and remove LunyThrow
 - LATER Deduplicate LifecycleEvents (flags and enum)
 - ## Other Concerns
