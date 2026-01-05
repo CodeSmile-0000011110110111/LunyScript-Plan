@@ -46,9 +46,10 @@
 	  :END:
 - ## SceneService Concerns
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
-	- GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
-	- scene load
--
+	- LATER GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
+	- LATER test scene (re-)load
+- ## Failsafe Concerns
+	- LATER return valid
 - ## Cleanup Concerns
 - DONE prefix with Luny
 - LATER refactor and remove LunyThrow
