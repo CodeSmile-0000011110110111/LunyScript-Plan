@@ -49,7 +49,7 @@
 	- LATER GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
 	- LATER test scene (re-)load
 - ## Failsafe Concerns
-	- LATER return valid
+	- LATER return valid "error" objects
 - ## Cleanup Concerns
 - DONE prefix with Luny
 - LATER refactor and remove LunyThrow
