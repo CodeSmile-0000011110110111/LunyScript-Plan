@@ -28,8 +28,8 @@
 		- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
 		- LATER create object via API and register it (should activate script if exists)
 		- LATER get and destroy registered object via API
+	- LATER update methods should not run when object is disabled in
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
-	-
 - ## SceneService Concerns
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 	- scene load
