@@ -26,7 +26,8 @@
 	- DONE Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
 	- LATER [[Lifecycle]] register/create/enable API methods for regular code #lunyscript
 		- Note: to fire LunyScript internal events eg Object.Destroy(x) => LunyObject.Destroy(x)
-		- LATER create object and register it (should )
+		- LATER create object via API and register it (should activate script if exists)
+		- LATER get and destroy registered object via API
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 	-
 - ## SceneService Concerns
