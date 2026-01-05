@@ -30,10 +30,6 @@
 		- LATER get and destroy registered object via API
 	- LATER update methods should not run when object is disabled in hierarchy (unregister handlers or check every frame?)
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
-- ## SceneService Concerns
-	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
-	-
-	- scene load
 - ## LunyObject Concerns
 	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
@@ -48,6 +44,11 @@
 	  :LOGBOOK:
 	  CLOCK: [2026-01-04 Sun 17:18:27]--[2026-01-04 Sun 20:46:12] =>  03:27:45
 	  :END:
+- ## SceneService Concerns
+	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
+	- GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
+	- scene load
+-
 - ## Cleanup Concerns
 - DONE prefix with Luny
 - LATER refactor and remove LunyThrow
