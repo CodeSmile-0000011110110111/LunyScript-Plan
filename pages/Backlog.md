@@ -53,7 +53,6 @@
 - ## Cleanup Concerns
 - DONE prefix with Luny
 - LATER refactor and remove LunyThrow
-- LATER Deduplicate LifecycleEvents (flags and enum)
 - ## Other Concerns
 - LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 - LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
