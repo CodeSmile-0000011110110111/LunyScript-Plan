@@ -30,6 +30,8 @@
 		- LATER get and destroy registered object via API
 	- LATER update methods should not run when object is disabled in hierarchy (unregister handlers or check every frame?)
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
+- ## LunyEngine Concerns
+	- LATER
 - ## LunyObject Concerns
 	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
