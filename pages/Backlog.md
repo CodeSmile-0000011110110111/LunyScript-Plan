@@ -31,7 +31,7 @@
 	- LATER update methods should not run when object is disabled in hierarchy (unregister handlers or check every frame?)
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 - ## LunyEngine Concerns
-	- LATER provide a "Initialized" callback to ensure there won't be a "ctor is too early, 'ready' is too late" scenario
+	- LATER provide a "Engine Initialized" callback to ensure there won't be a "ctor is too early, 'ready' is too late" scenario
 - ## LunyObject Concerns
 	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
@@ -50,6 +50,7 @@
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 	- LATER GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
 	- LATER test scene (re-)load
+	- LATER fix the smoke test check, it smells ...
 - ## Failsafe Concerns
 	- LATER return valid "error" objects
 - ## Cleanup Concerns
