@@ -46,7 +46,8 @@
 	  :LOGBOOK:
 	  CLOCK: [2026-01-04 Sun 17:18:27]--[2026-01-04 Sun 20:46:12] =>  03:27:45
 	  :END:
-- ## SceneService Concerns
+- ## EngineService Concerns
+- ### SceneService Concerns
 	- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 	- LATER GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
 	- LATER test scene (re-)load
