@@ -31,7 +31,7 @@
 	- LATER update methods should not run when object is disabled in hierarchy (unregister handlers or check every frame?)
 	- LATER need to handle LunyObject parenting (including a hierarchy with "gaps")
 - ## LunyEngine Concerns
-	- LATER
+	- LATER provide a "Initialized" callback to ensure there won't be a "ctor is too early, 'ready' is too late" scenario
 - ## LunyObject Concerns
 	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
 	  :LOGBOOK:
