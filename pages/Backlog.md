@@ -47,7 +47,7 @@
 	  CLOCK: [2026-01-04 Sun 17:18:27]--[2026-01-04 Sun 20:46:12] =>  03:27:45
 	  :END:
 - ## EngineService Concerns
-	- LATER Make all services implement the
+	- LATER Make all services implement the abstract base service class
 	- LATER Move Service Startup/Shutdown into service registry where it belongs
 	- ### SceneService Concerns
 		- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
