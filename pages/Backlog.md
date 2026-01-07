@@ -53,6 +53,8 @@
 		- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
 		- LATER GetSingleObject, convert to LunyObject if necessary, return proxy otherwise
 		- LATER test scene (re-)load
+			-
+			- LATER create ReloadScene block
 		- DONE remove the smoke test check, it smells ...
 - ## Failsafe Concerns
 	- LATER return valid "error" objects
