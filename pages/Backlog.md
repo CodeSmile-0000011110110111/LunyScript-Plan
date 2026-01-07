@@ -61,6 +61,8 @@
 - ## Cleanup Concerns
 	- DONE prefix with Luny
 	- DONE refactor and remove LunyThrow
+- ## Event Concerns
+	- LATER pass scene name (general: )
 - ## LunyScript Concerns
 	- LATER Implement Every.TimeInterval
 	- LATER [[Conditional Blocks]] (if/else) #lunyscript
