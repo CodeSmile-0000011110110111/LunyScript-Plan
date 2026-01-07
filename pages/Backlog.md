@@ -63,14 +63,14 @@
 	- DONE refactor and remove LunyThrow
 - ## LunyScript Concerns
 	- LATER Implement Every.TimeInterval
+	- LATER [[Conditional Blocks]] (if/else) #lunyscript
+	- LATER [[Composite Blocks]] (loops, timers, coroutines) #lunyscript
+	- LATER [[LunyScript Hot Reload]] with manual triggers #lunyscript
 - ## Other Concerns
 	- LATER [[Event Handling Blocks]] foundation (eg Input, Collision, SendMessage, etc) #lunyscript
 	- LATER [[Diagnostics]] LunyScript Profiling Hooks for profiling individual scripts and runnables #lunyscript
 	- LATER Diagnostics add internal verbose logging with log levels (perhaps categories for filtering?)
 	- DONE [[Diagnostics]] Debug Blocks should be filtered out in release builds (not executing)
-	- LATER [[LunyScript Hot Reload]] with manual triggers #lunyscript
-	- LATER [[Conditional Blocks]] (if/else) #lunyscript
-	- LATER [[Composite Blocks]] (loops, timers, coroutines) #lunyscript
 	- LATER [[Variable Blocks]] #lunyscript
 	- LATER [[Testing Infrastructure]] #luny #lunyscript
 	- LATER [[Resource Addressing]] (eg LunyUrl) #luny
