@@ -74,7 +74,7 @@
 - DONE Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
 - LATER Variables refactor to Vars.Global[] and maybe Vars.G[] as alias
 - ## Testing Concerns
-- LATER smoke test scene check should be improved, remove hardcoded strings
+-
 -
 -
 - possible improvements
