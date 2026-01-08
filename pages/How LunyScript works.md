@@ -1,3 +1,3 @@
 - With LunyScript, I'm not just creating a beginner-friendly declarative, block-based C# gameplay programming API that avoids technical jargon.
 - To make it work across professional game engines - Godot and Unity at first - I have to create an engine abstraction framework called "Luny". Luny serves as a cross-engine SDK for other developers too.
-- Creating such a portable C# framework may seem like an impossible task but it's not. It's been done before by frameworks like jQuery and standards like OpenXR.
+- Creating such a portable C# framework may seem like an impossible task but it's not. It's been done before by frameworks like jQuery and standards like OpenXR. You take two or more distinct APIs providing essentially the same set of features (here: making games)
