@@ -1,3 +1,3 @@
 - With LunyScript, I'm not just creating a beginner-friendly declarative, block-based C# gameplay programming API that avoids technical jargon.
-- To make it work across professional game engines - Godot and Unity at first - I have to create an engine abstraction layer which serves as an SDK for other developers.
+- To make it work across professional game engines - Godot and Unity at first - I have to create an engine abstraction layer called "Luny". Luny serves as a cross-engine SDK for other developers too.
 - This may seem like an impossible task but it's not. At t
