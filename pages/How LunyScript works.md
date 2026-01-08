@@ -2,4 +2,4 @@
 - To make it work across professional game engines - Godot and Unity at first - I have to create an engine abstraction framework called "Luny". Luny serves as a cross-engine SDK for other developers too.
 - Creating such a portable C# framework may seem like an impossible task but it's not. It's been done before by frameworks like jQuery and standards like OpenXR. You take two or more distinct APIs providing essentially the same set of features (here: making games) and expose them through a common API.
 - Luny exists the moment the engine's player runs. It hooks into a single object that provides the engine's heartbeat. Most other lifecycle events - Create and Destroy, Enable and Disable, and so forth - are triggered internally. This is more reliable than hooking into the engine-native events and dealing with their subtle timing and order varieties.
-- All other events are provided by service types, s
+- All other events are provided by service types for scene loading, input handling, collision callbacks, and so forth.
