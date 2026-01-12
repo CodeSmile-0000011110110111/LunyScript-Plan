@@ -1,4 +1,6 @@
-## Lifecycle concerns
+## Design
+-
+- ## Lifecycle concerns
 	- DONE [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 	- DONE Manage framecount internally in LunyEngine
 	  :LOGBOOK:
