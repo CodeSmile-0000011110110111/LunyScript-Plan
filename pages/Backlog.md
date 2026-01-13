@@ -4,6 +4,7 @@
 	  CLOCK: [2026-01-12 Mon 21:26:51]
 	  CLOCK: [2026-01-12 Mon 21:26:54]
 	  :END:
+		- Limit access to: Objects in scene (root + children, perhaps )
 - ## Lifecycle concerns
 	- DONE [[Lifecycle]] blocks with events (create/destroy, enable/disable) #lunyscript
 	- DONE Manage framecount internally in LunyEngine
