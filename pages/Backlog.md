@@ -1,5 +1,5 @@
 ## Promotion
-	-
+	- "What is LunyScript" presentation video
 - ## Design
 	- NOW User asked if scripts can be sandboxed - consider what's needed
 	  :LOGBOOK:
