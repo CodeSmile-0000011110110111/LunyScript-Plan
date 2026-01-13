@@ -21,7 +21,20 @@
 	  CLOCK: [2026-01-02 Fri 23:43:50]--[2026-01-03 Sat 22:50:19] =>  23:06:29
 	  :END:
 	- DONE Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
-	-
+- ## LunyObject
+	- DONE move _isEnabled and _isDestroyed (also: _nativeID, _name) to LunyObject base class
+	  :LOGBOOK:
+	  CLOCK: [2026-01-04 Sun 17:18:15]--[2026-01-04 Sun 17:18:18] =>  00:00:03
+	  CLOCK: [2026-01-04 Sun 17:18:19]--[2026-01-04 Sun 20:46:08] =>  03:27:49
+	  :END:
+	- DONE rename with "Luny" prefixes everywhere
+	  :LOGBOOK:
+	  CLOCK: [2026-01-04 Sun 17:18:25]--[2026-01-04 Sun 18:04:57] =>  00:46:32
+	  :END:
+	- DONE rename As<> to Cast<>
+	  :LOGBOOK:
+	  CLOCK: [2026-01-04 Sun 17:18:27]--[2026-01-04 Sun 20:46:12] =>  03:27:45
+	  :END:
 - ## Diagnostics
 	- DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
 	- DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript

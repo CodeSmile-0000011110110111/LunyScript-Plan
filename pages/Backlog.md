@@ -29,8 +29,6 @@
 - ## Failsafe Concerns
 	- LATER return valid "error" objects
 - ## Cleanup Concerns
-	- DONE prefix with Luny
-	- DONE refactor and remove LunyThrow
 - ## Event Concerns
 	- LATER pass scene name (general: passing event parameters to blocks)
 - ## LunyScript Concerns
