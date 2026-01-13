@@ -1,4 +1,6 @@
-## Design
+## Promotion
+	-
+- ## Design
 	- NOW User asked if scripts can be sandboxed - consider what's needed
 	  :LOGBOOK:
 	  CLOCK: [2026-01-12 Mon 21:26:51]
