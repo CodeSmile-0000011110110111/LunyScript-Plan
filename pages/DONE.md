@@ -21,7 +21,7 @@
 	  CLOCK: [2026-01-02 Fri 23:43:50]--[2026-01-03 Sat 22:50:19] =>  23:06:29
 	  :END:
 	- DONE Move object registration & event handling down to Luny, since LunyObject provides the event hooks - those are useful for all frameworks!
--
-- DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
-- DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
-- DONE [[Refactor LunyScript]] API #lunyscript
+	-
+- ## Diagnostics
+	- DONE [[Diagnostics]] Profiling with ingame overlay (Unity) #luny
+	- DONE [[Diagnostics]] LunyScript Debug Hooks with ingame overlay (Unity) #lunyscript
