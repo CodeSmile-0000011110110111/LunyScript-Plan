@@ -27,4 +27,4 @@
 	- Behavioural contracts
 	- Engine behavioural differences (eg "paused" behaviour)
 - ## Future Topics
-	- Portable scene format =>
+	- Portable scene format => design a scene in Godot, export and import in Unity - or vice versa. Should keep asset references.
