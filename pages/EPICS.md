@@ -3,6 +3,7 @@
 - ## Lua integration
 - ## Sandboxed Script Execution
 	- Filters and filter callbacks for Asset & Scene service
-	- API filters (Lua: blacklist/whitelist, C#: write your own sandbox service?)
+	- API filters (Lua: blacklist/whitelist, C#: probably writing a custom sandbox service)
 - ## On-Screen Diagnostics
--
+	- What gets displayed, where and how?
+	- What
