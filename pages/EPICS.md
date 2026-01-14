@@ -6,4 +6,6 @@
 	- API filters (Lua: blacklist/whitelist, C#: probably writing a custom sandbox service)
 - ## On-Screen Diagnostics
 	- What gets displayed, where and how?
-	- What
+	- What services will be needed
+- ## Cross-Engine Editor Integration
+	- Needs analysis of each engine's capabilities. Likely
