@@ -17,8 +17,8 @@
 	- Needs analysis of each engine's capabilities and what the goal should be for LunyScript.
 	- Would it make sense to have custom importers, build scripts, editor windows, settings menus, etc?
 - ## Developer SDK Documentation
-	- Write custom observers
+	- How to write custom observers
 	- Extend Service APIs
 	- How to add support for another engine (steps + details)
 	- Behavioural contracts
-	- Engine behaviour
+	- Engine behavioural differences (eg "paused" behaviour)
