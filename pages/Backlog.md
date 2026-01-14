@@ -46,6 +46,8 @@
 	- LATER [[Lua Integration]] #luny
 	- DONE Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
 	- LATER Variables refactor to Vars.Global[] and maybe Vars.G[] as alias
+- ## Unity-specific
+	- add the "no deep profiling" attribute
 - ## Testing Concerns
 	-
 -
