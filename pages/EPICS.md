@@ -4,7 +4,7 @@
 	- Cross-Engine automatable Unit Test setup - how?
 		- => Mock EngineLifecycleAdapter
 - ## Hot Reload
-	-
+	- For both C# and Lua scripts
 - ## Lua integration
 	- Custom code generator probably best compatible option
 - ## Sandboxed Script Execution
