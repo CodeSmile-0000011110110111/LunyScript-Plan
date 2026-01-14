@@ -18,4 +18,7 @@
 	- Would it make sense to have custom importers, build scripts, editor windows, settings menus, etc?
 - ## Developer SDK Documentation
 	- Write custom observers
-	- Extend
+	- Extend Service APIs
+	- How to add support for another engine (steps + details)
+	- Behavioural contracts
+	- Engine behaviour
