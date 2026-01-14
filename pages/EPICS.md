@@ -2,6 +2,7 @@
 -
 - ## Unit Testing
 	- Cross-Engine automatable Unit Test setup - how?
+		- => Mock EngineLifecycleAdapter
 - ## Lua integration
 - ## Sandboxed Script Execution
 	- Filters and filter callbacks for Asset & Scene service
