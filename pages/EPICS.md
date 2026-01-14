@@ -1,5 +1,6 @@
 - Epics are Features and Todos that are broad in scope and typically lack design and requirements analysis.
 -
+- ## Repos
 - ## Unit Testing
 	- Cross-Engine automatable Unit Test setup - how?
 		- => Mock EngineLifecycleAdapter
@@ -17,8 +18,9 @@
 	- Needs analysis of each engine's capabilities and what the goal should be for LunyScript.
 	- Would it make sense to have custom importers, build scripts, editor windows, settings menus, etc?
 - ## Developer SDK Documentation
-	- How to write custom observers
-	- Extend Service APIs
+	- How to write custom observers, and what you can do with it
+	- Extend Service APIs - both for public consumption and personal use
 	- How to add support for another engine (steps + details)
+		- repository setup
 	- Behavioural contracts
 	- Engine behavioural differences (eg "paused" behaviour)
