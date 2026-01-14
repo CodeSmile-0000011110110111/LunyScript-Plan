@@ -47,8 +47,7 @@
 	- DONE Disable Editor-only blocks (create EDITOR define, return no-op block, skip null blocks)
 	- LATER Variables refactor to Vars.Global[] and maybe Vars.G[] as alias
 - ## Unity-specific
-	- add the [```
-	  IgnoredByDeepProfiler attribute](https://docs.unity3d.com/ScriptReference/Unity.Profiling.IgnoredByDeepProfilerAttribute.html)
+	- add the [IgnoredByDeepProfiler attribute](https://docs.unity3d.com/ScriptReference/Unity.Profiling.IgnoredByDeepProfilerAttribute.html)
 - ## Testing Concerns
 	-
 -
