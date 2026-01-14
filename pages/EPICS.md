@@ -2,6 +2,7 @@
 -
 - ## Lua integration
 - ## Sandboxed Script Execution
-	-
+	- Filters and filter callbacks for Asset & Scene service
+	- API filters (Lua: easy, C#: write your own service?)
 - ## On-Screen Diagnostics
 -
