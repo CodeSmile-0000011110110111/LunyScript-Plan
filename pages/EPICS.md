@@ -1,7 +1,7 @@
 - Epics are Features and Todos that are broad in scope and typically lack design and requirements analysis.
 -
 - ## Repository Structure
-	- Consider Refactor: LunyEngine package separate from LunyScript
+	- Consider Refactor: LunyEngine package separate from LunyScript package?
 	- Future: lightweight 'package manager' for LunyEngine frameworks (versions, dependencies)
 - ## Unit Testing
 	- Cross-Engine automatable Unit Test setup - how?
