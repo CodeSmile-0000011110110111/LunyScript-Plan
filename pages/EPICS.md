@@ -7,5 +7,5 @@
 - ## On-Screen Diagnostics
 	- What gets displayed, where and how?
 	- What services will be needed
-- ## Cross-Engine Editor Integration
+- ## Cross-Engine Editor Tooling
 	- Needs analysis of each engine's capabilities and what the goal should be for LunyScript. Ie would it make sense to have custom importers, build scripts, editor windows, settings menus?
