@@ -4,6 +4,7 @@
 	- Cross-Engine automatable Unit Test setup - how?
 		- => Mock EngineLifecycleAdapter
 - ## Lua integration
+	- Custom code generator probably best option?
 - ## Sandboxed Script Execution
 	- Filters and filter callbacks for Asset & Scene service
 	- API filters (Lua: blacklist/whitelist, C#: probably writing a custom sandbox service)
