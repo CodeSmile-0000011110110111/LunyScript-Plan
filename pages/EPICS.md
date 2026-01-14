@@ -2,7 +2,7 @@
 -
 - ## Repository Structure
 	- Consider Refactor: LunyEngine separately from LunyScript
-	- Future: lightweight 'package manager' for Luny
+	- Future: lightweight 'package manager' for LunyEngine frameworks
 - ## Unit Testing
 	- Cross-Engine automatable Unit Test setup - how?
 		- => Mock EngineLifecycleAdapter
