@@ -1,3 +1,3 @@
-- Epics are Features and Todos that are broad in scope and haven't been designed yet.
+- Epics are Features and Todos that are broad in scope and lack at least design/requirements/analysis.
 -
 -
