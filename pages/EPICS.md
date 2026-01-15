@@ -5,8 +5,8 @@
 	- Future: lightweight 'package manager' for LunyEngine frameworks (versions, dependencies)
 - ## Unit Testing
 	- Cross-Engine automatable Unit Test setup
-		- create test project submodules with .csproj
-		- => Mock EngineLifecycleAdapter
+		- create test project that includes agnostic submodules
+		- add EngineLifecycleAdapter Mock
 - ## Hot Reload
 	- For both C# and Lua scripts
 - ## Lua integration
