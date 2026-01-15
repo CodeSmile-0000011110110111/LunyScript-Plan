@@ -4,7 +4,8 @@
 	- Consider Refactor: LunyEngine package separate from LunyScript package?
 	- Future: lightweight 'package manager' for LunyEngine frameworks (versions, dependencies)
 - ## Unit Testing
-	- Cross-Engine automatable Unit Test setup - how?
+	- Cross-Engine automatable Unit Test setup
+		- create test project submodules with .csproj
 		- => Mock EngineLifecycleAdapter
 - ## Hot Reload
 	- For both C# and Lua scripts
