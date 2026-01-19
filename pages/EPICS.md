@@ -33,4 +33,4 @@
 		- Requires using only portable asset types (otherwise placeholders appear).
 	- **Ingame Console w/ Block commands**
 		- run any block ingame
-		- add runnables with blocks at runtime or  as if it were part of the script
+		- add runnables with blocks at runtime
