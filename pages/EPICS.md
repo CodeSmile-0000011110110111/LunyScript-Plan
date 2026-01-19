@@ -28,4 +28,6 @@
 	- Behavioural contracts
 	- Engine behavioural differences (eg "paused" behaviour)
 - ## Future Topics
-	- Portable scene format => design a scene in Godot, export and import in Unity - or vice versa. Requires using only portable asset types (otherwise placeholders appear).
+	- **Portable scene format**
+		- design a scene in Godot, export and import in Unity - or vice versa. Requires using only portable asset types (otherwise placeholders appear).
+	- Ingame Console / Block commands
