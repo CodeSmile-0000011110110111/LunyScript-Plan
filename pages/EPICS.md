@@ -7,6 +7,9 @@
 - ## Reflective API
 	- see reflective API.md in RFC project
 	- serializing as Lua table
+	- to be designed
+		- capability contracts
+		- load time validation
 - ## Repository Structure
 	- Consider Refactor: LunyEngine as separate package from LunyScript package? Other frameworks may share the dependency
 	- Future: lightweight 'package manager' for LunyEngine frameworks (versions, dependencies)
