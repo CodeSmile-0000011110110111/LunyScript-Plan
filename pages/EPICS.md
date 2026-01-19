@@ -32,4 +32,4 @@
 		- design a scene in Godot, export and import in Unity - or vice versa.
 		- Requires using only portable asset types (otherwise placeholders appear).
 	- **Ingame Console w/ Block commands**
-		- run any block ingame
+		- run (or add)any block ingame as if it were part of the script
