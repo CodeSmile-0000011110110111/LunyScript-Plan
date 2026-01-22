@@ -4,7 +4,8 @@
 	- DONE Cross-Engine automatable Unit Test setup
 		- create test project that includes agnostic submodules
 		- add EngineLifecycleAdapter Mock
-- ## Reflective API
+- ## Reflective/Generated API
+	- [DEFERRED]
 	- see reflective API.md in RFC project
 	- serializing as Lua table
 	- to be designed
