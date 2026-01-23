@@ -18,7 +18,7 @@
 - ## LunyEngine Concerns
 	- LATER provide an awaitable "GetInstance()" to ensure there won't be a "ctor is too early, 'ready' is too late" scenario
 - ## LunyObject Concerns
-	- LATER allow runtime registr
+	-
 - ## EngineService Concerns
 	- ### SceneService Concerns
 		- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
@@ -32,6 +32,7 @@
 - ## Event Concerns
 	- LATER pass scene name (general: passing event parameters to blocks)
 - ## LunyScript Concerns
+	- LATER allow runtime registration and script execution
 	- LATER Implement Every.TimeInterval
 	- LATER [[Conditional Blocks]] (if/else) #lunyscript
 	- LATER [[Composite Blocks]] (loops, timers, coroutines) #lunyscript
