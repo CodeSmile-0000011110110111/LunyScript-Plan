@@ -1,10 +1,10 @@
 ## Promotion
 	- "What is LunyScript" presentation video
 - ## Design
-	- NOW User asked if scripts can be sandboxed - consider what's needed
+	- LATER User asked if scripts can be sandboxed - consider what's needed
 	  :LOGBOOK:
 	  CLOCK: [2026-01-12 Mon 21:26:51]
-	  CLOCK: [2026-01-12 Mon 21:26:54]
+	  CLOCK: [2026-01-12 Mon 21:26:54]--[2026-01-23 Fri 20:32:14] =>  263:05:20
 	  :END:
 		- Limit access to: Objects in scene (root + children), Assets, and API features
 		- Filtering: by tag/group/label, by asset/scene path or name
@@ -18,6 +18,7 @@
 - ## LunyEngine Concerns
 	- LATER provide an awaitable "GetInstance()" to ensure there won't be a "ctor is too early, 'ready' is too late" scenario
 - ## LunyObject Concerns
+	- LATER allow runtime registr
 - ## EngineService Concerns
 	- ### SceneService Concerns
 		- LATER GetAllObjects() converts every object to a LunyObject wrapper! This should only do so for objects for which we have LunyScripts.
